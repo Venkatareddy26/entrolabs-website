@@ -254,12 +254,8 @@ export const CAREERS_BENEFITS = [
 ];
 
 export const OPEN_POSITIONS = [
-  { title: 'Senior React Developer', dept: 'Engineering', type: 'Full-time', location: 'Hyderabad' },
-  { title: 'Flutter Mobile Developer', dept: 'Engineering', type: 'Full-time', location: 'Hyderabad' },
-  { title: 'QA Automation Engineer', dept: 'QA', type: 'Full-time', location: 'Hyderabad / Remote' },
-  { title: 'UI/UX Designer', dept: 'Design', type: 'Full-time', location: 'Hyderabad' },
-  { title: 'DevOps Engineer', dept: 'Infrastructure', type: 'Full-time', location: 'Hyderabad / Remote' },
-  { title: 'Business Analyst', dept: 'Product', type: 'Full-time', location: 'Hyderabad' },
+  { title: 'Sr. PHP Developer', dept: 'Engineering', type: 'Full-time', location: 'Vijayawada' },
+  { title: 'Android Developer', dept: 'Engineering', type: 'Full-time', location: 'Vijayawada' },
 ];
 
 export const CONTACT_INFO = {
