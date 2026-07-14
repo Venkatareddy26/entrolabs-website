@@ -1,0 +1,1624 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Entrolabs - IT Solutions</title>
+    <meta name="description"
+          content="We expertise in building enterprise scale sophisticated technology solutions for diverse business processes. " />
+    <meta name="keywords" content="ENTROLABS, Entro Labs, IT Solutions, Businesses, Software, Technologies and Innovations, Dynamic Customer Engagement, Creating Live Enterprises, Tactical Agility at Scale, Enterprise Application Services, Software Product Engineering, Mobility Solutions, Business Process Services, and Industry-specific solutions, Web Application Development, Services and API Development, Mobile App Development." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shourtcut icon" href="assets/logo/favicon.png" />
+
+    <meta property="og:title" content="Entrolabs - IT Solutions" />
+    <meta property="og:description"
+          content="We expertise in building enterprise scale sophisticated technology solutions for diverse business processes. " />
+    <meta property="og:image" content="assets/logo/favicon.png" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="canonical" href="index.php" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/png" href="assets/logo/favicon.png" />
+
+    <link rel="preload" href="assets/logo/logo-black.png" as="image" />    
+
+    
+    <link rel="shortcut icon" type="image/png" href="https://entrolabs.com/assets/logo/favicon.png">
+
+    <link rel="stylesheet" href="https://entrolabs.com/assets/cache/min/1/17bc8a08d201c56fb3245a736feec445.css" media="all" data-minify="1" />
+    <link rel="stylesheet" href="https://entrolabs.com/assets/css/custom.css" />
+    
+    <link rel="stylesheet" href="https://entrolabs.com/assets/simplelightbox-master/dist/simple-lightbox.css" />
+    <link rel="stylesheet" href="https://entrolabs.com/assets/js/fileuploader.css" />
+<link rel="stylesheet" href="https://entrolabs.com/assets/css/all.min.css">
+ <link rel="stylesheet" href="https://entrolabs.com/assets/css/slick.css"  />
+
+      <script>class RocketLazyLoadScripts { constructor() { this.triggerEvents = ["keydown", "mousedown", "mousemove", "touchmove", "touchstart", "touchend", "wheel"], this.userEventHandler = this._triggerListener.bind(this), this.touchStartHandler = this._onTouchStart.bind(this), this.touchMoveHandler = this._onTouchMove.bind(this), this.touchEndHandler = this._onTouchEnd.bind(this), this.clickHandler = this._onClick.bind(this), this.interceptedClicks = [], window.addEventListener("pageshow", e => { this.persisted = e.persisted }), window.addEventListener("DOMContentLoaded", () => { this._preconnect3rdParties() }), this.delayedScripts = { normal: [], async: [], defer: [] }, this.trash = [], this.allJQueries = [] } _addUserInteractionListener(e) { if (document.hidden) { e._triggerListener(); return } this.triggerEvents.forEach(t => window.addEventListener(t, e.userEventHandler, { passive: !0 })), window.addEventListener("touchstart", e.touchStartHandler, { passive: !0 }), window.addEventListener("mousedown", e.touchStartHandler), document.addEventListener("visibilitychange", e.userEventHandler) } _removeUserInteractionListener() { this.triggerEvents.forEach(e => window.removeEventListener(e, this.userEventHandler, { passive: !0 })), document.removeEventListener("visibilitychange", this.userEventHandler) } _onTouchStart(e) { "HTML" !== e.target.tagName && (window.addEventListener("touchend", this.touchEndHandler), window.addEventListener("mouseup", this.touchEndHandler), window.addEventListener("touchmove", this.touchMoveHandler, { passive: !0 }), window.addEventListener("mousemove", this.touchMoveHandler), e.target.addEventListener("click", this.clickHandler), this._renameDOMAttribute(e.target, "onclick", "rocket-onclick"), this._pendingClickStarted()) } _onTouchMove(e) { window.removeEventListener("touchend", this.touchEndHandler), window.removeEventListener("mouseup", this.touchEndHandler), window.removeEventListener("touchmove", this.touchMoveHandler, { passive: !0 }), window.removeEventListener("mousemove", this.touchMoveHandler), e.target.removeEventListener("click", this.clickHandler), this._renameDOMAttribute(e.target, "rocket-onclick", "onclick"), this._pendingClickFinished() } _onTouchEnd(e) { window.removeEventListener("touchend", this.touchEndHandler), window.removeEventListener("mouseup", this.touchEndHandler), window.removeEventListener("touchmove", this.touchMoveHandler, { passive: !0 }), window.removeEventListener("mousemove", this.touchMoveHandler) } _onClick(e) { e.target.removeEventListener("click", this.clickHandler), this._renameDOMAttribute(e.target, "rocket-onclick", "onclick"), this.interceptedClicks.push(e), e.preventDefault(), e.stopPropagation(), e.stopImmediatePropagation(), this._pendingClickFinished() } _replayClicks() { window.removeEventListener("touchstart", this.touchStartHandler, { passive: !0 }), window.removeEventListener("mousedown", this.touchStartHandler), this.interceptedClicks.forEach(e => { e.target.dispatchEvent(new MouseEvent("click", { view: e.view, bubbles: !0, cancelable: !0 })) }) } _waitForPendingClicks() { return new Promise(e => { this._isClickPending ? this._pendingClickFinished = e : e() }) } _pendingClickStarted() { this._isClickPending = !0 } _pendingClickFinished() { this._isClickPending = !1 } _renameDOMAttribute(e, t, i) { e.hasAttribute && e.hasAttribute(t) && (event.target.setAttribute(i, event.target.getAttribute(t)), event.target.removeAttribute(t)) } _triggerListener() { this._removeUserInteractionListener(this), "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", this._loadEverythingNow.bind(this)) : this._loadEverythingNow() } _preconnect3rdParties() { let e = []; document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t => { if (t.hasAttribute("src")) { let i = new URL(t.html).origin; i !== location.origin && e.push({ src: i, crossOrigin: t.crossOrigin || "module" === t.getAttribute("data-rocket-type") }) } }), e = [...new Map(e.map(e => [JSON.stringify(e), e])).values()], this._batchInjectResourceHints(e, "preconnect") } async _loadEverythingNow() { this.lastBreath = Date.now(), this._delayEventListeners(this), this._delayJQueryReady(this), this._handleDocumentWrite(), this._registerAllDelayedScripts(), this._preloadAllScripts(), await this._loadScriptsFromList(this.delayedScripts.normal), await this._loadScriptsFromList(this.delayedScripts.defer), await this._loadScriptsFromList(this.delayedScripts.async); try { await this._triggerDOMContentLoaded(), await this._triggerWindowLoad() } catch (e) { console.error(e) } window.dispatchEvent(new Event("rocket-allScriptsLoaded")), this._waitForPendingClicks().then(() => { this._replayClicks() }), this._emptyTrash() } _registerAllDelayedScripts() { document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e => { e.hasAttribute("data-rocket-src") ? e.hasAttribute("async") && !1 !== e.async ? this.delayedScripts.async.push(e) : e.hasAttribute("defer") && !1 !== e.defer || "module" === e.getAttribute("data-rocket-type") ? this.delayedScripts.defer.push(e) : this.delayedScripts.normal.push(e) : this.delayedScripts.normal.push(e) }) } async _transformScript(e) { return await this._littleBreath(), new Promise(t => { function i() { e.setAttribute("data-rocket-status", "executed"), t() } function r() { e.setAttribute("data-rocket-status", "failed"), t() } try { let n = e.getAttribute("data-rocket-type"), s = e.getAttribute("data-rocket-src"); if (n ? (e.type = n, e.removeAttribute("data-rocket-type")) : e.removeAttribute("type"), e.addEventListener("load", i), e.addEventListener("error", r), s) e.src = s, e.removeAttribute("data-rocket-src"); else if (navigator.userAgent.indexOf("Firefox/#") > 0) { var a = document.createElement("script");[...e.attributes].forEach(e => { "type" !== e.nodeName && a.setAttribute("data-rocket-type" === e.nodeName ? "type" : e.nodeName, e.nodeValue) }), a.text = e.text, e.parentNode.replaceChild(a, e), i() } else e.src = "data:text/javascript;base64," + window.btoa(unescape(encodeURIComponent(e.text))) } catch (o) { r() } }) } async _loadScriptsFromList(e) { let t = e.shift(); return t && t.isConnected ? (await this._transformScript(t), this._loadScriptsFromList(e)) : Promise.resolve() } _preloadAllScripts() { this._batchInjectResourceHints([...this.delayedScripts.normal, ...this.delayedScripts.defer, ...this.delayedScripts.async], "preload") } _batchInjectResourceHints(e, t) { var i = document.createDocumentFragment(); e.forEach(e => { let r = e.getAttribute && e.getAttribute("data-rocket-src") || e.src; if (r) { let n = document.createElement("link"); n.href = r, n.rel = t, "preconnect" !== t && (n.as = "script"), e.getAttribute && "module" === e.getAttribute("data-rocket-type") && (n.crossOrigin = !0), e.crossOrigin && (n.crossOrigin = e.crossOrigin), e.integrity && (n.integrity = e.integrity), i.appendChild(n), this.trash.push(n) } }), document.head.appendChild(i) } _delayEventListeners(e) { let t = {}; function i(e, i) { !function e(i) { !t[i] && (t[i] = { originalFunctions: { add: i.addEventListener, remove: i.removeEventListener }, eventsToRewrite: [] }, i.addEventListener = function () { arguments[0] = r(arguments[0]), t[i].originalFunctions.add.apply(i, arguments) }, i.removeEventListener = function () { arguments[0] = r(arguments[0]), t[i].originalFunctions.remove.apply(i, arguments) }); function r(e) { return t[i].eventsToRewrite.indexOf(e) >= 0 ? "rocket-" + e : e } }(e), t[e].eventsToRewrite.push(i) } function r(e, t) { let i = e[t]; Object.defineProperty(e, t, { get: () => i || function () { }, set(r) { e["rocket" + t] = i = r } }) } i(document, "DOMContentLoaded"), i(window, "DOMContentLoaded"), i(window, "load"), i(window, "pageshow"), i(document, "readystatechange"), r(document, "onreadystatechange"), r(window, "onload"), r(window, "onpageshow") } _delayJQueryReady(e) { let t; function i(i) { if (i && i.fn && !e.allJQueries.includes(i)) { i.fn.ready = i.fn.init.prototype.ready = function (t) { return e.domReadyFired ? t.bind(document)(i) : document.addEventListener("rocket-DOMContentLoaded", () => t.bind(document)(i)), i([]) }; let r = i.fn.on; i.fn.on = i.fn.init.prototype.on = function () { if (this[0] === window) { function e(e) { return e.split(" ").map(e => "load" === e || 0 === e.indexOf("load.") ? "rocket-jquery-load" : e).join(" ") } "string" == typeof arguments[0] || arguments[0] instanceof String ? arguments[0] = e(arguments[0]) : "object" == typeof arguments[0] && Object.keys(arguments[0]).forEach(t => { delete Object.assign(arguments[0], { [e(t)]: arguments[0][t] })[t] }) } return r.apply(this, arguments), this }, e.allJQueries.push(i) } t = i } i(window.jQuery), Object.defineProperty(window, "jQuery", { get: () => t, set(e) { i(e) } }) } async _triggerDOMContentLoaded() { this.domReadyFired = !0, await this._littleBreath(), document.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._littleBreath(), window.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._littleBreath(), document.dispatchEvent(new Event("rocket-readystatechange")), await this._littleBreath(), document.rocketonreadystatechange && document.rocketonreadystatechange() } async _triggerWindowLoad() { await this._littleBreath(), window.dispatchEvent(new Event("rocket-load")), await this._littleBreath(), window.rocketonload && window.rocketonload(), await this._littleBreath(), this.allJQueries.forEach(e => e(window).trigger("rocket-jquery-load")), await this._littleBreath(); let e = new Event("rocket-pageshow"); e.persisted = this.persisted, window.dispatchEvent(e), await this._littleBreath(), window.rocketonpageshow && window.rocketonpageshow({ persisted: this.persisted }) } _handleDocumentWrite() { let e = new Map; document.write = document.writeln = function (t) { let i = document.currentScript; i || console.error("WPRocket unable to document.write this: " + t); let r = document.createRange(), n = i.parentElement, s = e.get(i); void 0 === s && (s = i.nextSibling, e.set(i, s)); let a = document.createDocumentFragment(); r.setStart(a, 0), a.appendChild(r.createContextualFragment(t)), n.insertBefore(a, s) } } async _littleBreath() { Date.now() - this.lastBreath > 45 && (await this._requestAnimFrame(), this.lastBreath = Date.now()) } async _requestAnimFrame() { return document.hidden ? new Promise(e => setTimeout(e)) : new Promise(e => requestAnimationFrame(e)) } _emptyTrash() { this.trash.forEach(e => e.remove()) } static run() { let e = new RocketLazyLoadScripts; e._addUserInteractionListener(e) } } RocketLazyLoadScripts.run();
+    </script>
+</head>
+
+<body class="home page-template-default page page-id-2 wp-custom-logo">
+    <header id="header">
+        <div class="navbar v2">
+            <div class="barnd_box ">
+                <a class="navbar-brand" href="/index.php" title="EntroLabs">
+                    <img loading="lazy" width="159" height="43" class="logo_white" src="https://entrolabs.com/assets/logo/logo-black.png"
+                         alt="logo" />
+                    <img loading="lazy" width="159" height="43" class="logo_black" src="https://entrolabs.com/assets/logo/logo-black.png"
+                         alt="logo" />
+                </a>
+            </div>
+            <nav class="navbar-inner" id="master_menu">
+                <ul class="navbar-nav">
+                    <li id="menu-item-20"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-2 menu-item-20 nav-item   current-menu-item active">
+                        <a href="index.php" aria-current="page" class="nav-link scroll">Home</a>
+                    </li>
+                    <li id="menu-item-30"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 nav-item">
+                        <a href="https://entrolabs.com/about-us/" class="nav-link scroll">About Us</a>
+                    </li>
+                    <li id="menu-item-25"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item">
+                        <a href="https://entrolabs.com/services/" class="nav-link scroll">Services</a>
+                    </li>
+                    <li id="menu-item-25"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item dropdown">
+                        <a href="https://entrolabs.com/technologies/" class="nav-link scroll"> Technologies <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvklEQVR4nO3RwQqDMBCE4aGHYt92j75XD7ZPZxEUSsCmarKZ1flhbznMRwCllFJKKeXZDSfYeAfwBNCDNwPwAvDIIcb5elLEON97DZNC2DCWbJsg3dpjVoxtQbBibA+CDWNHECwYK4FojbGSiFYYq4HwxlhNhBfGBVEb44qohWmCKI1piiiFoUAcxVAh9mIoEVsx1Ih/MSEQOUwoxNI0cEiGf98QAfHrZ8L8RA4TEpFiQiOWujMglFJKKaWu3AfcdLEudXvTswAAAABJRU5ErkJggg==" width="12" style="vertical-align:middle;" /></a>
+                        <ul class="select-dropdown drop">
+                            <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item">
+                                <a href="https://entrolabs.com/mobile-app-development-technology/" class="scroll">Mobile App Development</a>
+                            </li>
+                            <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item">
+                                <a href="https://entrolabs.com/web-application-development-technology/" class="scroll">Web Application Development</a>
+                            </li>
+                            <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item">
+                                <a href="https://entrolabs.com/api-development-and-integration-services/" class="scroll">API Development</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-25"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item">
+                        <a href="https://entrolabs.com/projects/" class="nav-link scroll">Projects</a>
+                    </li>
+                    <li id="menu-item-22"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22 nav-item">
+                        <a href="https://entrolabs.com/careers/" class="nav-link scroll">Careers</a>
+                    </li>
+                    <li id="menu-item-75"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75 nav-item">
+                        <a href="https://entrolabs.com/contact-us/" class="nav-link scroll">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="smallNav">
+                <ul>
+                    <li class="hSearch">
+
+                    </li>
+                    <li class="menuTriggerLi">
+                        <div class="menu_trigger" data-traget="master_menu">
+                            <span class="bar-top"></span> <span class="bar-middle"></span> <span class="bar-bottom"></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="loader">
+        <div class="loader-block">
+            <div class="loader-img">
+                <img loading="lazy" width="159" height="43" src="https://entrolabs.com/assets/logo/logo-black.png" alt="EntroLabs">
+            </div>
+        </div>
+    </div>
+    <section class="home-banner " id="home">
+        <div class="container">
+            <div class="content_wrap" id="scene">
+                <h1 class=" layer"  data-depth="0.06" data-scroll>
+               
+                    <span class="WeDesign-blue">"We Help Bridging</span> Businesses & Industries <span class="create-green">with Our</span> Software Technologies and Innovations."
+                </h1>
+                <div class="row">
+                    <div class="point_box col-xl-4" data-scroll data-scroll-delay="0.2" data-scroll-speed=".5"
+                         data-scroll-call="dynamicColor" data-scroll-repeat>
+                        <!--<span></span>-->
+                        <a>
+                            <h2 class="">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nO1ZTW/TQBC1gHLgyMeJwr8Alf/QQouEQPBDQPyA8iFugFpU+gHHIkigLRcOkThk36QWEom5wYHEu62g5ZxwWTROU4ni1Lv2xg5SRhopkWPve5PZmbdjzxvZyEaW2Vb16lEK6RIk7kLitZD0BYp+CYnf7HufA74W/WYbE1rrI17RVgtr56BwH4pCKNI2LhS1oHAPLYznDvyj+nQGip4JhY4t8H+JoCMk5nzpn84FPEm6CUW7WYHHENkRobgxMOC+9segsOAaOA4SkTTPa7kFL/0TkHg/aPDouaQNXtNd5PMEr3qOD0EQHM9MII+0Qd90wlwm8FVJt4oCjx6JsHY9FXgK6ZRQ+Fk0ASjaTVViuc7nCXTt23r/6xJP7cC3MO6iSZn6UuOFvly+qmfxID6NFDq+9M9bRD+SB7mAXw664CdL05H3I8Gywwg8i6yuTskBfGPlL/Ds/P3d19h0Clk0JhKIVGUBkZ8sTeup8ox+Xl/qe091a/Nicvqw3B1C8OjKjDuJBITCmyLAL9QXE+8Vkl4lE+CDxxCCB7ukenIKWUjlPpvNeMNOlWf0YmPZ+BncWE1SyKj+P9x8ZBy9zJFXPUfbCQEGbwqEwV956wI8mRFISiFOG9NU6HXYLGkD6xQy2MQmKbESvHQYeTLfxKZl9LDUGAh4ZVhGbRpZv8oS26QahzcpmBG4nUxgGxM2D437J1xHHnteU7ULhmIOTZsHx6WMa/BC4bvxNC+amFkucJCES/DoTvJmjcBnOdD0SLgGD4V2tVk969kYTwTSLMZ7IklVpoj+Y8/Wqs3qyWE41AuFndRzU55VFk2AtuhaKvD7JCTNFxZ9SU+8rMbnUKGoVAD49YquHPPcDXdpIz/wWHM23N0nof2xtJXJNm0qriIfZzyrHEh1kviRecPazE153McNJjt4tLnOc9n28jbujiw7bLVTlCoKTZYH1h12EMYii4dOPLdhzc4HDz7ZRS/wupKET3mf+RpLYlaVQ/GadWQj8/5/+wO4yRM6vdI5mQAAAABJRU5ErkJggg==" alt="icon" width="20" />
+                                Drive Business Value
+                            </h2>
+                        </a>
+                        <!--<span></span>-->
+                        <a>
+                            <h2 class="">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nO1ZTW/TQBC1gHLgyMeJwr8Alf/QQouEQPBDQPyA8iFugFpU+gHHIkigLRcOkThk36QWEom5wYHEu62g5ZxwWTROU4ni1Lv2xg5SRhopkWPve5PZmbdjzxvZyEaW2Vb16lEK6RIk7kLitZD0BYp+CYnf7HufA74W/WYbE1rrI17RVgtr56BwH4pCKNI2LhS1oHAPLYznDvyj+nQGip4JhY4t8H+JoCMk5nzpn84FPEm6CUW7WYHHENkRobgxMOC+9segsOAaOA4SkTTPa7kFL/0TkHg/aPDouaQNXtNd5PMEr3qOD0EQHM9MII+0Qd90wlwm8FVJt4oCjx6JsHY9FXgK6ZRQ+Fk0ASjaTVViuc7nCXTt23r/6xJP7cC3MO6iSZn6UuOFvly+qmfxID6NFDq+9M9bRD+SB7mAXw664CdL05H3I8Gywwg8i6yuTskBfGPlL/Ds/P3d19h0Clk0JhKIVGUBkZ8sTeup8ox+Xl/qe091a/Nicvqw3B1C8OjKjDuJBITCmyLAL9QXE+8Vkl4lE+CDxxCCB7ukenIKWUjlPpvNeMNOlWf0YmPZ+BncWE1SyKj+P9x8ZBy9zJFXPUfbCQEGbwqEwV956wI8mRFISiFOG9NU6HXYLGkD6xQy2MQmKbESvHQYeTLfxKZl9LDUGAh4ZVhGbRpZv8oS26QahzcpmBG4nUxgGxM2D437J1xHHnteU7ULhmIOTZsHx6WMa/BC4bvxNC+amFkucJCES/DoTvJmjcBnOdD0SLgGD4V2tVk969kYTwTSLMZ7IklVpoj+Y8/Wqs3qyWE41AuFndRzU55VFk2AtuhaKvD7JCTNFxZ9SU+8rMbnUKGoVAD49YquHPPcDXdpIz/wWHM23N0nof2xtJXJNm0qriIfZzyrHEh1kviRecPazE153McNJjt4tLnOc9n28jbujiw7bLVTlCoKTZYH1h12EMYii4dOPLdhzc4HDz7ZRS/wupKET3mf+RpLYlaVQ/GadWQj8/5/+wO4yRM6vdI5mQAAAABJRU5ErkJggg==" alt="icon" width="20" />
+                                Creating Live Enterprises
+                            </h2>
+                        </a>
+                        <!--<span></span>-->
+                        <a>
+                            <h2 class="">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nO1ZTW/TQBC1gHLgyMeJwr8Alf/QQouEQPBDQPyA8iFugFpU+gHHIkigLRcOkThk36QWEom5wYHEu62g5ZxwWTROU4ni1Lv2xg5SRhopkWPve5PZmbdjzxvZyEaW2Vb16lEK6RIk7kLitZD0BYp+CYnf7HufA74W/WYbE1rrI17RVgtr56BwH4pCKNI2LhS1oHAPLYznDvyj+nQGip4JhY4t8H+JoCMk5nzpn84FPEm6CUW7WYHHENkRobgxMOC+9segsOAaOA4SkTTPa7kFL/0TkHg/aPDouaQNXtNd5PMEr3qOD0EQHM9MII+0Qd90wlwm8FVJt4oCjx6JsHY9FXgK6ZRQ+Fk0ASjaTVViuc7nCXTt23r/6xJP7cC3MO6iSZn6UuOFvly+qmfxID6NFDq+9M9bRD+SB7mAXw664CdL05H3I8Gywwg8i6yuTskBfGPlL/Ds/P3d19h0Clk0JhKIVGUBkZ8sTeup8ox+Xl/qe091a/Nicvqw3B1C8OjKjDuJBITCmyLAL9QXE+8Vkl4lE+CDxxCCB7ukenIKWUjlPpvNeMNOlWf0YmPZ+BncWE1SyKj+P9x8ZBy9zJFXPUfbCQEGbwqEwV956wI8mRFISiFOG9NU6HXYLGkD6xQy2MQmKbESvHQYeTLfxKZl9LDUGAh4ZVhGbRpZv8oS26QahzcpmBG4nUxgGxM2D437J1xHHnteU7ULhmIOTZsHx6WMa/BC4bvxNC+amFkucJCES/DoTvJmjcBnOdD0SLgGD4V2tVk969kYTwTSLMZ7IklVpoj+Y8/Wqs3qyWE41AuFndRzU55VFk2AtuhaKvD7JCTNFxZ9SU+8rMbnUKGoVAD49YquHPPcDXdpIz/wWHM23N0nof2xtJXJNm0qriIfZzyrHEh1kviRecPazE153McNJjt4tLnOc9n28jbujiw7bLVTlCoKTZYH1h12EMYii4dOPLdhzc4HDz7ZRS/wupKET3mf+RpLYlaVQ/GadWQj8/5/+wO4yRM6vdI5mQAAAABJRU5ErkJggg==" alt="icon" width="20" />
+                                Tactical Agility at Scale
+                            </h2>
+                        </a>
+                    </div>
+                    <div class="point_box  col-xl-6" data-scroll data-scroll-delay="0.2" data-scroll-speed=".5"
+                         data-scroll-call="dynamicColor" data-scroll-repeat>
+                        <!--<span></span>-->
+                        <a>
+                            <h2 class=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nO1ZTW/TQBC1gHLgyMeJwr8Alf/QQouEQPBDQPyA8iFugFpU+gHHIkigLRcOkThk36QWEom5wYHEu62g5ZxwWTROU4ni1Lv2xg5SRhopkWPve5PZmbdjzxvZyEaW2Vb16lEK6RIk7kLitZD0BYp+CYnf7HufA74W/WYbE1rrI17RVgtr56BwH4pCKNI2LhS1oHAPLYznDvyj+nQGip4JhY4t8H+JoCMk5nzpn84FPEm6CUW7WYHHENkRobgxMOC+9segsOAaOA4SkTTPa7kFL/0TkHg/aPDouaQNXtNd5PMEr3qOD0EQHM9MII+0Qd90wlwm8FVJt4oCjx6JsHY9FXgK6ZRQ+Fk0ASjaTVViuc7nCXTt23r/6xJP7cC3MO6iSZn6UuOFvly+qmfxID6NFDq+9M9bRD+SB7mAXw664CdL05H3I8Gywwg8i6yuTskBfGPlL/Ds/P3d19h0Clk0JhKIVGUBkZ8sTeup8ox+Xl/qe091a/Nicvqw3B1C8OjKjDuJBITCmyLAL9QXE+8Vkl4lE+CDxxCCB7ukenIKWUjlPpvNeMNOlWf0YmPZ+BncWE1SyKj+P9x8ZBy9zJFXPUfbCQEGbwqEwV956wI8mRFISiFOG9NU6HXYLGkD6xQy2MQmKbESvHQYeTLfxKZl9LDUGAh4ZVhGbRpZv8oS26QahzcpmBG4nUxgGxM2D437J1xHHnteU7ULhmIOTZsHx6WMa/BC4bvxNC+amFkucJCES/DoTvJmjcBnOdD0SLgGD4V2tVk969kYTwTSLMZ7IklVpoj+Y8/Wqs3qyWE41AuFndRzU55VFk2AtuhaKvD7JCTNFxZ9SU+8rMbnUKGoVAD49YquHPPcDXdpIz/wWHM23N0nof2xtJXJNm0qriIfZzyrHEh1kviRecPazE153McNJjt4tLnOc9n28jbujiw7bLVTlCoKTZYH1h12EMYii4dOPLdhzc4HDz7ZRS/wupKET3mf+RpLYlaVQ/GadWQj8/5/+wO4yRM6vdI5mQAAAABJRU5ErkJggg==" alt="icon" width="20" /> Dynamic Customer Engagement </h2>
+                        </a> <!--<span></span>-->
+                        <a>
+                            <h2 class=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nO1ZTW/TQBC1gHLgyMeJwr8Alf/QQouEQPBDQPyA8iFugFpU+gHHIkigLRcOkThk36QWEom5wYHEu62g5ZxwWTROU4ni1Lv2xg5SRhopkWPve5PZmbdjzxvZyEaW2Vb16lEK6RIk7kLitZD0BYp+CYnf7HufA74W/WYbE1rrI17RVgtr56BwH4pCKNI2LhS1oHAPLYznDvyj+nQGip4JhY4t8H+JoCMk5nzpn84FPEm6CUW7WYHHENkRobgxMOC+9segsOAaOA4SkTTPa7kFL/0TkHg/aPDouaQNXtNd5PMEr3qOD0EQHM9MII+0Qd90wlwm8FVJt4oCjx6JsHY9FXgK6ZRQ+Fk0ASjaTVViuc7nCXTt23r/6xJP7cC3MO6iSZn6UuOFvly+qmfxID6NFDq+9M9bRD+SB7mAXw664CdL05H3I8Gywwg8i6yuTskBfGPlL/Ds/P3d19h0Clk0JhKIVGUBkZ8sTeup8ox+Xl/qe091a/Nicvqw3B1C8OjKjDuJBITCmyLAL9QXE+8Vkl4lE+CDxxCCB7ukenIKWUjlPpvNeMNOlWf0YmPZ+BncWE1SyKj+P9x8ZBy9zJFXPUfbCQEGbwqEwV956wI8mRFISiFOG9NU6HXYLGkD6xQy2MQmKbESvHQYeTLfxKZl9LDUGAh4ZVhGbRpZv8oS26QahzcpmBG4nUxgGxM2D437J1xHHnteU7ULhmIOTZsHx6WMa/BC4bvxNC+amFkucJCES/DoTvJmjcBnOdD0SLgGD4V2tVk969kYTwTSLMZ7IklVpoj+Y8/Wqs3qyWE41AuFndRzU55VFk2AtuhaKvD7JCTNFxZ9SU+8rMbnUKGoVAD49YquHPPcDXdpIz/wWHM23N0nof2xtJXJNm0qriIfZzyrHEh1kviRecPazE153McNJjt4tLnOc9n28jbujiw7bLVTlCoKTZYH1h12EMYii4dOPLdhzc4HDz7ZRS/wupKET3mf+RpLYlaVQ/GadWQj8/5/+wO4yRM6vdI5mQAAAABJRU5ErkJggg==" alt="icon" width="20" /> Accelerate Process Optimization </h2>
+                        </a> <!--<span></span>-->
+                        <a>
+                            <h2 class=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nO1ZTW/TQBC1gHLgyMeJwr8Alf/QQouEQPBDQPyA8iFugFpU+gHHIkigLRcOkThk36QWEom5wYHEu62g5ZxwWTROU4ni1Lv2xg5SRhopkWPve5PZmbdjzxvZyEaW2Vb16lEK6RIk7kLitZD0BYp+CYnf7HufA74W/WYbE1rrI17RVgtr56BwH4pCKNI2LhS1oHAPLYznDvyj+nQGip4JhY4t8H+JoCMk5nzpn84FPEm6CUW7WYHHENkRobgxMOC+9segsOAaOA4SkTTPa7kFL/0TkHg/aPDouaQNXtNd5PMEr3qOD0EQHM9MII+0Qd90wlwm8FVJt4oCjx6JsHY9FXgK6ZRQ+Fk0ASjaTVViuc7nCXTt23r/6xJP7cC3MO6iSZn6UuOFvly+qmfxID6NFDq+9M9bRD+SB7mAXw664CdL05H3I8Gywwg8i6yuTskBfGPlL/Ds/P3d19h0Clk0JhKIVGUBkZ8sTeup8ox+Xl/qe091a/Nicvqw3B1C8OjKjDuJBITCmyLAL9QXE+8Vkl4lE+CDxxCCB7ukenIKWUjlPpvNeMNOlWf0YmPZ+BncWE1SyKj+P9x8ZBy9zJFXPUfbCQEGbwqEwV956wI8mRFISiFOG9NU6HXYLGkD6xQy2MQmKbESvHQYeTLfxKZl9LDUGAh4ZVhGbRpZv8oS26QahzcpmBG4nUxgGxM2D437J1xHHnteU7ULhmIOTZsHx6WMa/BC4bvxNC+amFkucJCES/DoTvJmjcBnOdD0SLgGD4V2tVk969kYTwTSLMZ7IklVpoj+Y8/Wqs3qyWE41AuFndRzU55VFk2AtuhaKvD7JCTNFxZ9SU+8rMbnUKGoVAD49YquHPPcDXdpIz/wWHM23N0nof2xtJXJNm0qriIfZzyrHEh1kviRecPazE153McNJjt4tLnOc9n28jbujiw7bLVTlCoKTZYH1h12EMYii4dOPLdhzc4HDz7ZRS/wupKET3mf+RpLYlaVQ/GadWQj8/5/+wO4yRM6vdI5mQAAAABJRU5ErkJggg==" alt="icon" width="20" /> De-scaling Organizational Complexity </h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll_box">
+            <a class="link_">
+                <svg viewBox="0 0 126.013 127.46">
+                    <g transform="translate(-1372 -871.04)">
+                        <g class="circl_">
+                            <g transform="translate(160.029 -734.076)">
+                                <path d="M1257.2,1609.458a3.229,3.229,0,0,1,1.649,1.59l-1.017.342a2.167,2.167,0,0,0-1.1-1.106,2.291,2.291,0,0,0-1.7-.012,2,2,0,0,0-1.146.832,1.421,1.421,0,0,0-.1,1.225,1.167,1.167,0,0,0,.566.705,2.035,2.035,0,0,0,.891.216,10.83,10.83,0,0,0,1.292-.071,11.24,11.24,0,0,1,1.61-.06,2.517,2.517,0,0,1,1.179.372,2.031,2.031,0,0,1,.823,1.142,2.141,2.141,0,0,1-.194,1.862,3.044,3.044,0,0,1-1.738,1.284,3.9,3.9,0,0,1-2.572.079,2.979,2.979,0,0,1-1.727-1.572l1.031-.347a2.056,2.056,0,0,0,1.162,1.1,2.7,2.7,0,0,0,1.857-.05,1.829,1.829,0,0,0,1.091-.822,1.461,1.461,0,0,0,.083-1.209,1.246,1.246,0,0,0-.588-.748,2.01,2.01,0,0,0-.912-.226,12.911,12.911,0,0,0-1.335.069,11.3,11.3,0,0,1-1.576.056,2.4,2.4,0,0,1-1.14-.351,1.932,1.932,0,0,1-.789-1.094,2.143,2.143,0,0,1,.193-1.888,3.216,3.216,0,0,1,1.809-1.3A3.361,3.361,0,0,1,1257.2,1609.458Z">
+                                </path>
+                                <path d="M1267.856,1607.373a3.651,3.651,0,0,1,1.692,2.093l-1.152.186a2.494,2.494,0,0,0-1.226-1.463,3.2,3.2,0,0,0-2.039-.278,3.25,3.25,0,0,0-1.479.628,2.784,2.784,0,0,0-.933,1.343,4.66,4.66,0,0,0,.621,3.838,2.777,2.777,0,0,0,1.308.979,3.226,3.226,0,0,0,1.6.13,3.185,3.185,0,0,0,1.847-.906,2.488,2.488,0,0,0,.7-1.775l1.152-.186a3.65,3.65,0,0,1-.945,2.519,4.267,4.267,0,0,1-2.585,1.309,4.494,4.494,0,0,1-2.273-.175,3.754,3.754,0,0,1-1.74-1.291,5.525,5.525,0,0,1-.763-4.722,3.757,3.757,0,0,1,1.245-1.774,4.5,4.5,0,0,1,2.1-.883A4.278,4.278,0,0,1,1267.856,1607.373Z">
+                                </path>
+                                <path d="M1274.519,1606.615a3.94,3.94,0,0,1,2.054-.548l.022,1.216-.368.007a3.2,3.2,0,0,0-2.084.716,2.7,2.7,0,0,0-.793,2.23l.083,4.784-1.136.019-.152-8.734,1.135-.02.032,1.808A2.953,2.953,0,0,1,1274.519,1606.615Z">
+                                </path>
+                                <path d="M1285.2,1607.479a3.821,3.821,0,0,1,1.335,1.736,4.884,4.884,0,0,1,.252,2.443,4.824,4.824,0,0,1-.858,2.294,3.89,3.89,0,0,1-1.729,1.344,4.543,4.543,0,0,1-2.282.256,4.593,4.593,0,0,1-2.153-.823,3.922,3.922,0,0,1-1.35-1.747,5.286,5.286,0,0,1,.605-4.729,3.869,3.869,0,0,1,1.745-1.341,4.647,4.647,0,0,1,2.29-.248A4.6,4.6,0,0,1,1285.2,1607.479Zm-3.905.332a2.873,2.873,0,0,0-1.323,1.015,4.427,4.427,0,0,0-.494,3.85,2.914,2.914,0,0,0,1.027,1.308,3.411,3.411,0,0,0,1.539.584,3.324,3.324,0,0,0,1.611-.181,2.932,2.932,0,0,0,1.316-1.009,3.863,3.863,0,0,0,.689-1.863,3.907,3.907,0,0,0-.2-1.986,2.915,2.915,0,0,0-1.018-1.316,3.312,3.312,0,0,0-1.514-.58A3.4,3.4,0,0,0,1281.3,1607.811Z">
+                                </path>
+                                <path d="M1292.095,1605.4l-2.968,11.462-1.1-.285,2.968-11.462Z"></path>
+                                <path d="M1296.27,1606.673l-3.726,11.239-1.078-.357,3.725-11.24Z"></path>
+                                <path d="M1302.607,1621.375l-.461.878-.92-.485a2.63,2.63,0,0,1-1.392-1.411,2.727,2.727,0,0,1,.392-2.082l2.392-4.544-1.175-.619.455-.863,1.175.619,1.03-1.954,1,.529-1.029,1.954,2.124,1.119-.455.863-2.123-1.118-2.4,4.558a1.828,1.828,0,0,0-.3,1.283,1.629,1.629,0,0,0,.886.855Z">
+                                </path>
+                                <path d="M1313.5,1619.952a3.835,3.835,0,0,1,.333,2.163,5.371,5.371,0,0,1-2.814,3.859,3.9,3.9,0,0,1-2.163.344,4.522,4.522,0,0,1-2.124-.876,4.58,4.58,0,0,1-1.489-1.759,3.929,3.929,0,0,1-.341-2.18,5.292,5.292,0,0,1,2.81-3.852,3.875,3.875,0,0,1,2.175-.335,4.643,4.643,0,0,1,2.126.887A4.58,4.58,0,0,1,1313.5,1619.952Zm-3.582-1.593a2.892,2.892,0,0,0-1.649.252,3.906,3.906,0,0,0-1.508,1.307,3.863,3.863,0,0,0-.779,1.828,2.894,2.894,0,0,0,.269,1.642,3.4,3.4,0,0,0,1.066,1.253,3.322,3.322,0,0,0,1.5.619,2.921,2.921,0,0,0,1.639-.251,4.42,4.42,0,0,0,2.286-3.135,2.9,2.9,0,0,0-.257-1.644,3.325,3.325,0,0,0-1.047-1.238A3.393,3.393,0,0,0,1309.919,1618.359Z">
+                                </path>
+                                <path d="M1317.529,1635.648l.752-5.285-3.045,2.594-.736-.864,9.012-7.679.737.865-5.286,4.5,5.175.153.9,1.059-5.893-.255-.684,6.006Z">
+                                </path>
+                                <path d="M1329.458,1639.343a3.894,3.894,0,0,1-1.93,2.292l-4.343,2.648-.576-.942,4.277-2.608a3.061,3.061,0,0,0,1.49-1.752,2.582,2.582,0,0,0-.376-2.076,2.7,2.7,0,0,0-1.8-1.344,3.513,3.513,0,0,0-2.514.624l-3.962,2.415-.592-.97,7.459-4.548.592.97-1.831,1.116a3.037,3.037,0,0,1,2.094.147,3.515,3.515,0,0,1,1.555,1.414A3.31,3.31,0,0,1,1329.458,1639.343Z">
+                                </path>
+                                <path d="M1334.077,1649.007a3.826,3.826,0,0,1-.9,1.993,5.369,5.369,0,0,1-4.465,1.694,3.892,3.892,0,0,1-2-.893,4.869,4.869,0,0,1-1.586-4.181,3.93,3.93,0,0,1,.9-2.013,5.291,5.291,0,0,1,4.458-1.69,3.859,3.859,0,0,1,2.005.908,4.936,4.936,0,0,1,1.586,4.182Zm-2.13-3.291a2.888,2.888,0,0,0-1.519-.691,3.9,3.9,0,0,0-1.977.271,3.861,3.861,0,0,0-1.651,1.1,2.9,2.9,0,0,0-.672,1.522,3.4,3.4,0,0,0,.208,1.632,3.341,3.341,0,0,0,.918,1.338,2.917,2.917,0,0,0,1.51.685,3.85,3.85,0,0,0,1.968-.267,3.921,3.921,0,0,0,1.66-1.109,2.9,2.9,0,0,0,.681-1.516,3.329,3.329,0,0,0-.2-1.611A3.4,3.4,0,0,0,1331.947,1645.716Z">
+                                </path>
+                                <path d="M1337.984,1665.857l-9.023-1.237-.178-1.171,6.946-3.707-7.738-1.513-.175-1.155,8.251-3.856.171,1.123-7.171,3.191,7.876,1.46.173,1.139-7.087,3.744,7.792.907Z">
+                                </path>
+                                <path d="M1334.694,1686.632a3.933,3.933,0,0,1-2.965.389l-5-.953.21-1.1,4.92.936a3.12,3.12,0,0,0,2.249-.264,2.383,2.383,0,0,0,1.087-1.691,2.582,2.582,0,0,0-.44-2.136,3.537,3.537,0,0,0-2.264-1.2l-4.558-.868.206-1.085,4.92.937a3.121,3.121,0,0,0,2.249-.264,2.389,2.389,0,0,0,1.087-1.691,2.58,2.58,0,0,0-.44-2.135,3.544,3.544,0,0,0-2.265-1.2l-4.557-.867.212-1.116,8.582,1.634-.213,1.116-2.043-.389a2.915,2.915,0,0,1,1.426,1.453,3.39,3.39,0,0,1,.194,2.015,3.279,3.279,0,0,1-.968,1.835,3.154,3.154,0,0,1-1.976.8,3.232,3.232,0,0,1,1.522,1.544,3.406,3.406,0,0,1,.232,2.08A3.248,3.248,0,0,1,1334.694,1686.632Z">
+                                </path>
+                                <path d="M1330.793,1696.864a3.838,3.838,0,0,1-2.053.762,4.894,4.894,0,0,1-2.409-.482,4.824,4.824,0,0,1-1.936-1.5,3.885,3.885,0,0,1-.772-2.048,4.514,4.514,0,0,1,.431-2.257,4.572,4.572,0,0,1,1.424-1.813,3.907,3.907,0,0,1,2.066-.772,5.295,5.295,0,0,1,4.339,1.977,3.858,3.858,0,0,1,.764,2.064,4.929,4.929,0,0,1-1.854,4.068Zm.84-3.828a2.9,2.9,0,0,0-.579-1.565,4.427,4.427,0,0,0-3.532-1.61,2.9,2.9,0,0,0-1.553.593,3.41,3.41,0,0,0-1.013,1.3,3.344,3.344,0,0,0-.305,1.594,2.916,2.916,0,0,0,.576,1.553,3.829,3.829,0,0,0,1.576,1.211,3.886,3.886,0,0,0,1.954.4,2.9,2.9,0,0,0,1.558-.582,3.317,3.317,0,0,0,1-1.275A3.411,3.411,0,0,0,1331.633,1693.036Z">
+                                </path>
+                                <path d="M1327.06,1703.391a3.915,3.915,0,0,1-.693,2.01l-1.02-.661.2-.308a3.206,3.206,0,0,0,.568-2.129,2.7,2.7,0,0,0-1.408-1.9l-4.016-2.6.618-.954,7.333,4.748-.618.954-1.517-.984A2.962,2.962,0,0,1,1327.06,1703.391Z">
+                                </path>
+                                <path d="M1315.411,1706.961a2.377,2.377,0,0,0,.572,1.775l-.779.892a3.558,3.558,0,0,1-.824-2.484,4.289,4.289,0,0,1,1.161-2.641,4.482,4.482,0,0,1,1.861-1.315,3.753,3.753,0,0,1,2.164-.118,5.52,5.52,0,0,1,3.6,3.149,3.764,3.764,0,0,1,.174,2.16,4.5,4.5,0,0,1-1.055,2.02,4.4,4.4,0,0,1-1.862,1.317,3.648,3.648,0,0,1-2.016.129,4.015,4.015,0,0,1-1.791-.917,4.946,4.946,0,0,1-.572-.585l4.76-5.446a3.692,3.692,0,0,0-1.692-.873,2.754,2.754,0,0,0-1.578.141,3.348,3.348,0,0,0-1.265.912A3.245,3.245,0,0,0,1315.411,1706.961Zm6.945,1.438a2.773,2.773,0,0,0-.06-1.572,3.677,3.677,0,0,0-1.057-1.551l-4.064,4.651a3.234,3.234,0,0,0,1.593.925,2.628,2.628,0,0,0,1.556-.127,3.559,3.559,0,0,0,2.032-2.326Z">
+                                </path>
+                                <path d="M1291.7,1728.859a3.214,3.214,0,0,1-1.618-1.62l1.023-.322a2.159,2.159,0,0,0,1.083,1.126,2.29,2.29,0,0,0,1.7.043,2,2,0,0,0,1.162-.811,1.428,1.428,0,0,0,.126-1.222,1.166,1.166,0,0,0-.553-.715,2.021,2.021,0,0,0-.887-.233,10.949,10.949,0,0,0-1.294.047,11.286,11.286,0,0,1-1.609.03,2.485,2.485,0,0,1-1.173-.394,2.021,2.021,0,0,1-.8-1.156,2.142,2.142,0,0,1,.228-1.859,3.052,3.052,0,0,1,1.762-1.252,3.91,3.91,0,0,1,2.573-.031,2.979,2.979,0,0,1,1.7,1.6l-1.038.327a2.053,2.053,0,0,0-1.141-1.117,2.694,2.694,0,0,0-1.857.015,1.83,1.83,0,0,0-1.106.8,1.46,1.46,0,0,0-.106,1.207,1.245,1.245,0,0,0,.575.759,2.006,2.006,0,0,0,.907.242,12.3,12.3,0,0,0,1.336-.044,11.4,11.4,0,0,1,1.578-.027,2.388,2.388,0,0,1,1.131.373,1.921,1.921,0,0,1,.769,1.107,2.139,2.139,0,0,1-.228,1.884,3.215,3.215,0,0,1-1.832,1.266A3.351,3.351,0,0,1,1291.7,1728.859Z">
+                                </path>
+                                <path d="M1280.981,1730.748a3.653,3.653,0,0,1-1.652-2.124l1.157-.165a2.486,2.486,0,0,0,1.2,1.486,3.187,3.187,0,0,0,2.032.317,3.228,3.228,0,0,0,1.49-.6,2.774,2.774,0,0,0,.959-1.324,4.659,4.659,0,0,0-.548-3.85,2.778,2.778,0,0,0-1.29-1,3.235,3.235,0,0,0-1.6-.16,3.2,3.2,0,0,0-1.865.871,2.49,2.49,0,0,0-.734,1.761l-1.156.165a3.644,3.644,0,0,1,.993-2.5,4.28,4.28,0,0,1,2.608-1.261,4.5,4.5,0,0,1,2.27.219,3.768,3.768,0,0,1,1.716,1.323,5.533,5.533,0,0,1,.673,4.737,3.758,3.758,0,0,1-1.278,1.75,4.5,4.5,0,0,1-2.118.842A4.266,4.266,0,0,1,1280.981,1730.748Z">
+                                </path>
+                                <path d="M1274.2,1731.372a3.922,3.922,0,0,1-2.072.479l.021-1.216.367.007a3.211,3.211,0,0,0,2.107-.647,2.7,2.7,0,0,0,.867-2.2l.078-4.783,1.136.018-.141,8.735-1.136-.019.029-1.807A2.943,2.943,0,0,1,1274.2,1731.372Z">
+                                </path>
+                                <path d="M1263.637,1730.317a3.824,3.824,0,0,1-1.3-1.759,5.372,5.372,0,0,1,.7-4.726,3.91,3.91,0,0,1,1.754-1.311,4.873,4.873,0,0,1,4.424.652,3.909,3.909,0,0,1,1.316,1.77,5.289,5.289,0,0,1-.694,4.718,3.865,3.865,0,0,1-1.769,1.308,4.629,4.629,0,0,1-2.294.2A4.571,4.571,0,0,1,1263.637,1730.317Zm3.911-.256a2.886,2.886,0,0,0,1.343-.992,3.882,3.882,0,0,0,.725-1.857,3.835,3.835,0,0,0-.161-1.982,2.9,2.9,0,0,0-1-1.327,3.4,3.4,0,0,0-1.527-.613,3.338,3.338,0,0,0-1.615.15,2.914,2.914,0,0,0-1.333.985,3.833,3.833,0,0,0-.726,1.85,3.914,3.914,0,0,0,.16,1.989,2.913,2.913,0,0,0,.992,1.334,3.331,3.331,0,0,0,1.5.609A3.417,3.417,0,0,0,1267.548,1730.061Z">
+                                </path>
+                                <path d="M1256.729,1732.271l3.181-11.405,1.095.305-3.182,11.405Z"></path>
+                                <path d="M1252.538,1730.908l3.942-11.165,1.072.378-3.943,11.165Z"></path>
+                                <path d="M1246.533,1716.116l.479-.869.911.5a2.633,2.633,0,0,1,1.365,1.436,2.73,2.73,0,0,1-.429,2.074l-2.475,4.5,1.163.639-.47.856-1.164-.64-1.064,1.935-.995-.548,1.064-1.935-2.1-1.157.47-.854,2.1,1.156,2.482-4.514a1.822,1.822,0,0,0,.319-1.276,1.622,1.622,0,0,0-.872-.872Z">
+                                </path>
+                                <path d="M1235.586,1717.316a3.826,3.826,0,0,1-.292-2.17,5.37,5.37,0,0,1,2.886-3.805,3.9,3.9,0,0,1,2.168-.3,4.871,4.871,0,0,1,3.563,2.7,3.917,3.917,0,0,1,.3,2.186,5.288,5.288,0,0,1-2.881,3.8,3.881,3.881,0,0,1-2.181.294,4.648,4.648,0,0,1-2.109-.927A4.6,4.6,0,0,1,1235.586,1717.316Zm3.551,1.659a2.893,2.893,0,0,0,1.654-.221,3.9,3.9,0,0,0,1.532-1.278,3.859,3.859,0,0,0,.813-1.814,2.892,2.892,0,0,0-.238-1.646,3.407,3.407,0,0,0-1.043-1.273,3.325,3.325,0,0,0-1.487-.646,2.923,2.923,0,0,0-1.643.219,3.861,3.861,0,0,0-1.527,1.273,3.906,3.906,0,0,0-.818,1.819,2.911,2.911,0,0,0,.226,1.648,3.338,3.338,0,0,0,1.024,1.258A3.4,3.4,0,0,0,1239.137,1718.975Z">
+                                </path>
+                                <path d="M1231.853,1701.548l-.85,5.271,3.093-2.537.719.878-9.154,7.509-.72-.878,5.369-4.4-5.171-.249-.883-1.076,5.888.365.795-5.992Z">
+                                </path>
+                                <path d="M1219.99,1697.625a3.892,3.892,0,0,1,1.973-2.254l4.393-2.566.557.953-4.324,2.526a3.063,3.063,0,0,0-1.524,1.723,2.583,2.583,0,0,0,.337,2.083,2.708,2.708,0,0,0,1.779,1.379,3.523,3.523,0,0,0,2.526-.576l4.006-2.341.573.981-7.544,4.406-.572-.981,1.851-1.081a3.029,3.029,0,0,1-2.091-.187,3.523,3.523,0,0,1-1.529-1.442A3.324,3.324,0,0,1,1219.99,1697.625Z">
+                                </path>
+                                <path d="M1215.567,1687.905a3.832,3.832,0,0,1,.941-1.976,5.377,5.377,0,0,1,4.5-1.612,3.888,3.888,0,0,1,1.982.931,4.524,4.524,0,0,1,1.265,1.917,4.582,4.582,0,0,1,.243,2.293,3.914,3.914,0,0,1-.942,1.994,5.292,5.292,0,0,1-4.489,1.609,3.871,3.871,0,0,1-1.987-.946,4.933,4.933,0,0,1-1.509-4.21Zm2.069,3.33a2.887,2.887,0,0,0,1.507.718,4.426,4.426,0,0,0,3.652-1.308,2.886,2.886,0,0,0,.7-1.509,3.393,3.393,0,0,0-.178-1.636,3.321,3.321,0,0,0-.893-1.354,2.906,2.906,0,0,0-1.5-.713,3.851,3.851,0,0,0-1.974.231,3.9,3.9,0,0,0-1.679,1.077,2.923,2.923,0,0,0-.711,1.5,3.339,3.339,0,0,0,.17,1.613A3.416,3.416,0,0,0,1217.636,1691.235Z">
+                                </path>
+                                <path d="M1211.971,1670.978l9,1.4.156,1.174-7.015,3.578,7.709,1.656.155,1.157-8.322,3.7-.149-1.126,7.228-3.057-7.847-1.606-.152-1.141,7.155-3.614-7.774-1.049Z">
+                                </path>
+                                <path d="M1215.653,1650.231a3.94,3.94,0,0,1,2.972-.331l4.979,1.048-.23,1.1-4.9-1.031a3.118,3.118,0,0,0-2.254.22,2.391,2.391,0,0,0-1.12,1.67,2.587,2.587,0,0,0,.4,2.144,3.539,3.539,0,0,0,2.241,1.24l4.54.955-.227,1.08-4.9-1.03a3.113,3.113,0,0,0-2.254.221,2.382,2.382,0,0,0-1.119,1.669,2.578,2.578,0,0,0,.4,2.143,3.527,3.527,0,0,0,2.24,1.24l4.541.956-.234,1.111-8.549-1.8.234-1.111,2.035.427a2.916,2.916,0,0,1-1.4-1.479,3.384,3.384,0,0,1-.155-2.019,3.269,3.269,0,0,1,1-1.816,3.146,3.146,0,0,1,1.992-.759,3.224,3.224,0,0,1-1.492-1.573,3.4,3.4,0,0,1-.192-2.084A3.248,3.248,0,0,1,1215.653,1650.231Z">
+                                </path>
+                                <path d="M1219.746,1640.081a3.835,3.835,0,0,1,2.067-.722,4.872,4.872,0,0,1,2.4.529,4.81,4.81,0,0,1,1.908,1.534,3.9,3.9,0,0,1,.734,2.063,4.87,4.87,0,0,1-1.933,4.034,3.914,3.914,0,0,1-2.08.732,5.285,5.285,0,0,1-4.3-2.06,3.877,3.877,0,0,1-.726-2.077,4.935,4.935,0,0,1,1.932-4.033Zm-.912,3.812a2.889,2.889,0,0,0,.549,1.576,4.423,4.423,0,0,0,3.5,1.676,2.893,2.893,0,0,0,1.564-.563,3.4,3.4,0,0,0,1.037-1.277,3.31,3.31,0,0,0,.335-1.587,2.915,2.915,0,0,0-.545-1.566,3.846,3.846,0,0,0-1.552-1.24,3.9,3.9,0,0,0-1.948-.436,2.908,2.908,0,0,0-1.568.552,3.329,3.329,0,0,0-1.027,1.256A3.406,3.406,0,0,0,1218.834,1643.893Z">
+                                </path>
+                                <path d="M1223.6,1633.636a3.927,3.927,0,0,1,.729-2l1.008.68-.2.305a3.2,3.2,0,0,0-.609,2.118,2.7,2.7,0,0,0,1.372,1.929l3.966,2.675-.635.942-7.243-4.886.636-.941,1.5,1.011A2.947,2.947,0,0,1,1223.6,1633.636Z">
+                                </path>
+                                <path d="M1235.308,1630.288a2.377,2.377,0,0,0-.54-1.786l.8-.877a3.555,3.555,0,0,1,.779,2.5,4.284,4.284,0,0,1-1.21,2.618,4.5,4.5,0,0,1-1.886,1.281,3.757,3.757,0,0,1-2.165.077,5.528,5.528,0,0,1-3.543-3.215,3.747,3.747,0,0,1-.133-2.163,4.5,4.5,0,0,1,1.092-2,4.377,4.377,0,0,1,1.887-1.281,3.628,3.628,0,0,1,2.016-.092,4.016,4.016,0,0,1,1.774.95,4.7,4.7,0,0,1,.561.6l-4.86,5.354a3.674,3.674,0,0,0,1.675.9,2.744,2.744,0,0,0,1.581-.11,3.355,3.355,0,0,0,1.282-.889A3.254,3.254,0,0,0,1235.308,1630.288Zm-6.917-1.567a2.765,2.765,0,0,0,.03,1.572,3.67,3.67,0,0,0,1.027,1.57l4.152-4.573a3.221,3.221,0,0,0-1.577-.954,2.61,2.61,0,0,0-1.557.1,3.561,3.561,0,0,0-2.075,2.287Z">
+                                </path>
+                            </g>
+                        </g>
+                        <g transform="translate(-68.326)">
+                            <line y2="32" transform="translate(1503.5 918.5)" fill="none" stroke="#000"
+                                  stroke-width="1"></line>
+                            <path d="M-15754.229-9876.412l5.475,5.479,5.48-5.479"
+                                  transform="translate(17252.252 10821.417)" fill="none" stroke="#000" stroke-width="1">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <div class="social_wrap">
+            <nav>
+                <ul>
+                    <li class="create-green">
+                        <a href="https://www.facebook.com/entrolabs" target="_blank" class="link_ create-green" rel="external nofollow"
+                           data-text="Facebook"><span class="WeDesign-blue">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/entrolabs/" target="_blank" class="link_" rel="external nofollow" data-text="Instagram">
+                            <span class="create-green">Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/entrolabs/?originalSubdomain=in" target="_blank" class="link_ " rel="external nofollow" data-text="LinkedIn">
+                            <span class="WeDesign-blue">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/@91-Care?si=FJ8ALs6H4VxP79LN" target="_blank" class="link_" rel="external nofollow" data-text="Twitter">
+                            <span class="create-green">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="home-section about-text" id="about" data-scroll>
+        <div class="container">
+            <div class="about_wrap">
+
+                <div class="content_wrap">
+                    <div class="title_box">
+                        <h2><strong class="text-success">EntroLabs:</strong> An Overview</strong></h2>
+                    </div>
+                    <div class="text_box">
+                        <p class="text-justify">
+                            Entro Labs transforms business enterprises with next-generation digital capabilities. We offer end-to-end support on the next generation, innovative, and competitive digital capabilities. We help businesses across different sectors to navigate new possibilities, and achieve higher quality and greater operational efficiency. We work as your dedicated standalone software services provider. Importantly, our IT competencies cover Enterprise Application Services, Software Product Engineering, Mobility Solutions, Business Process Services, and Industry-specific solutions.
+                        </p>
+                    </div>
+                    <div class="more_wrap">
+                        <a href="about-us/" class="more" data-text="Read More about" title="Read More about">
+                            <span>
+                                Read More about
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="img_box p-lg-5 about-img">
+                    <img src="https://entrolabs.com/assets/images/about_image.jpg" alt="image" width="auto" />
+                    <script src="https://entrolabs.com/assets/js/lottie-player.js"></script>
+                     
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="home-section mt-5 " id="portfolio" data-scroll>
+        <div class="container">
+            <div class="title_wrap text-center text-uppercase">
+                <h2>Our Solutions</h2>
+            </div>
+            <div class="portfolio_wrap" data-scroll data-scroll-delay="0.2" data-scroll-speed=".5"
+                 data-scroll-call="dynamicColor" data-scroll-repeat>
+                <div class="p_item" data-scroll>
+                    <a href="https://entrolabs.com/e-government-solutions/" class="link_">
+                        <div class="img_box">
+                            <picture>
+                                <img loading="lazy" src="https://entrolabs.com/assets/dev/web1.png" loading="lazy" alt="image">
+                            </picture>
+                            <div class="hover_box">
+                                <video loop="" muted="" autoplay="" playsinline="" poster="https://entrolabs.com/assets/dev/web2.png"
+                                       class="lazy">
+                                    <source data-src="https://entrolabs.com/assets/dev/web2.png" type="video/webm">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="content_wrap">
+                            <h6>E-GOVERNANCE</h6>
+                            <div class="meta_box">
+
+                                <div class="c_name">
+                                    We build e-Governance systems with a multi-level hierarchy in
+                                    compliance with existing process.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="p_item inView" data-scroll data-scroll-delay="0.2" data-scroll-speed=".5"
+                     data-scroll-call="dynamicColor" data-scroll-repeat>
+                    <div class="p_item" data-scroll>
+                        <a href="https://entrolabs.com/e-ticketing-and-hospitality-solutions/" class="link_">
+                            <div class="img_box">
+                                <picture>
+                                    <img loading="lazy" src="https://entrolabs.com/assets/dev/eticket1.png" loading="lazy" alt="image">
+                                </picture>
+                                <div class="hover_box">
+                                    <video loop="" muted="" autoplay="" playsinline="" poster="https://entrolabs.com/assets/dev/eticket2.png"
+                                           class="lazy">
+                                        <source data-src="https://entrolabs.com/assets/dev/eticket2.png" type="video/webm">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="content_wrap">
+                                <h6>E-TICKETING</h6>
+                                <div class="meta_box">
+                                    <div class="c_name">
+                                        Web Portal and POS ticketing applications with Payment Gateway
+                                        Integration.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p_item" data-scroll data-scroll-delay="0.2" data-scroll-speed=".5"
+                     data-scroll-call="dynamicColor" data-scroll-repeat>
+                    <div class="p_item" data-scroll>
+                        <a href="https://entrolabs.com/pos-and-ecom-development/" class="link_">
+                            <div class="img_box">
+                                <picture>
+                                    <img loading="lazy" src="https://entrolabs.com/assets/dev/pos2.png" loading="lazy" alt="image">
+                                </picture>
+                                <div class="hover_box">
+                                    <video loop="" muted="" autoplay="" playsinline="" poster="https://entrolabs.com/assets/dev/pos1.png"
+                                           class="lazy">
+                                        <source data-src="https://entrolabs.com/assets/dev/pos1.png" type="video/webm">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="content_wrap">
+                                <h6>POS SOLUTIONS</h6>
+                                <div class="meta_box">
+                                    <div class="c_name">
+                                        Customized POS solution development. We also provide device assistance.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p_item" data-scroll data-scroll-delay="0.2" data-scroll-speed=".5"
+                     data-scroll-call="dynamicColor" data-scroll-repeat>
+                    <div class="p_item" data-scroll>
+                        <a href="https://entrolabs.com/qa-services/" class="link_">
+                            <div class="img_box">
+                                <picture>
+                                    <img loading="lazy" src="https://entrolabs.com/assets/dev/qa2.png" loading="lazy" alt="image">
+                                </picture>
+                                <div class="hover_box">
+                                    <video loop="" muted="" autoplay="" playsinline="" poster="https://entrolabs.com/assets/dev/qa1.png"
+                                           class="lazy">
+                                        <source data-src="https://entrolabs.com/assets/dev/qa1.png" type="video/webm">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="content_wrap">
+                                <h6>QA AUTOMATION</h6>
+                                <div class="meta_box">
+                                    <div class="c_name">
+                                        Industry Quality Assurance and Testing Process automation applications.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p_item inView" data-scroll data-scroll-delay="0.2" data-scroll-speed=".5"
+                     data-scroll-call="dynamicColor" data-scroll-repeat>
+                    <div class="p_item" data-scroll>
+                        <a href="https://entrolabs.com/projects/" class="link_">
+                            <div class="img_box">
+                                <picture>
+                                    <img loading="lazy" src="https://entrolabs.com/assets/dev/sis2.png" loading="lazy" alt="image">
+                                </picture>
+                                <div class="hover_box">
+                                    <video loop="" muted="" autoplay="" playsinline="" poster="https://entrolabs.com/assets/dev/sis1.png"
+                                           class="lazy">
+                                        <source data-src="https://entrolabs.com/assets/dev/sis1.png" type="video/webm">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="content_wrap">
+                                <h6>SIS SOFTWARE</h6>
+                                <div class="meta_box">
+                                    <div class="c_name">
+                                        Industry Quality Assurance and Testing Process automation applications.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p_item" data-scroll data-scroll-delay="0.2" data-scroll-speed=".5"
+                     data-scroll-call="dynamicColor" data-scroll-repeat>
+                    <div class="p_item" data-scroll>
+                        <a href="https://entrolabs.com/iot-and-wearables-integration/" class="link_">
+                            <div class="img_box">
+                                <picture>
+                                    <img loading="lazy" src="https://entrolabs.com/assets/dev/iot1.png" loading="lazy" alt="image">
+                                </picture>
+                                <div class="hover_box">
+                                    <video loop="" muted="" autoplay="" playsinline="" poster="https://entrolabs.com/assets/dev/iot2.png"
+                                           class="lazy">
+                                        <source data-src="https://entrolabs.com/assets/dev/iot2.png" type="video/webm">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="content_wrap">
+                                <h6>IOT PRODUCT ENGINEERING</h6>
+                                <div class="meta_box">
+                                    <div class="c_name">
+                                        Custom IoT based product development and support.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="more_wrap m_top text-center">
+                <a href="projects/" class="more" data-text="View More Projects" title="View More Projects">
+                    <span>View Our Projects</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="home-section " id="web-service" data-scroll>
+        <div class="container">
+            <div class="title_wrap text-center text-uppercase">
+                <h2>Feature Services</h2>
+            </div>
+            <div class="web_service_wrap" data-scroll data-scroll-delay="0.2" data-scroll-speed="-.5"
+                 data-scroll-call="dynamicColor" data-scroll-repeat>
+                <a href="https://entrolabs.com/enterprise-software-solutions/" class="w_item">
+                    <div class="icon_">
+                        <svg x="0px" y="0px" viewBox="0 0 72.9 64" overflow="visible" xml:space="preserve">
+                        <g transform="translate(0 -37.5)">
+                        <g transform="translate(0 55.754)">
+                        <g>
+                        <path d="M67.4,4.7c-0.5,0-0.9,0.4-0.9,0.9v32.8c0,0.3-0.3,0.6-0.6,0.6H7c-0.3,0-0.6-0.3-0.6-0.6v-4.8
+c0-0.5-0.4-0.9-0.9-0.9s-0.9,0.4-0.9,0.9v4.8c0,1.3,1.1,2.4,2.4,2.4h58.9c1.3,0,2.4-1.1,2.4-2.4V5.6C68.3,5.1,67.9,4.7,67.4,4.7
+C67.4,4.7,67.4,4.7,67.4,4.7z" />
+                                    </g>
+                                </g>
+                        <g transform="translate(0 37.5)">
+                        <g>
+                        <path id="Path_5833" d="M65.9,4.7H36.5c-0.5,0-0.9,0.4-0.9,0.9c0,0.5,0.4,0.9,0.9,0.9h29.4c0.3,0,0.6,0.3,0.6,0.6v7.5H29V6.6h3.4
+c0.5,0,0.9-0.4,0.9-0.9c0-0.5-0.4-0.9-0.9-0.9l0,0H7c-1.3,0-2.4,1-2.4,2.3v40.7c0,0.5,0.4,0.9,0.9,0.9s0.9-0.4,0.9-0.9V16.5h60
+v3.4c0,0.5,0.4,0.9,0.9,0.9c0.5,0,0.9-0.4,0.9-0.9V7.1C68.3,5.8,67.3,4.7,65.9,4.7z M27.1,14.7H6.5V7.1c0-0.3,0.3-0.6,0.6-0.6
+h20.1L27.1,14.7z" />
+                                    </g>
+                                </g>
+                        <g transform="translate(3.049 40.612)">
+                        <g>
+                        <path d="M7.4,4.7C5.9,4.7,4.6,6,4.6,7.5c0,1.5,1.3,2.8,2.8,2.8c1.5,0,2.8-1.3,2.8-2.8C10.2,6,9,4.7,7.4,4.7
+L7.4,4.7z M7.4,8.4C6.9,8.4,6.5,8,6.5,7.5c0-0.5,0.4-0.9,0.9-0.9S8.3,7,8.3,7.5l0,0C8.3,8,7.9,8.4,7.4,8.4z" />
+                                    </g>
+                                </g>
+                        <g transform="translate(9.521 40.612)">
+                        <g>
+                        <path d="M7.4,4.7C5.9,4.7,4.6,6,4.6,7.5c0,1.5,1.3,2.8,2.8,2.8c1.5,0,2.8-1.3,2.8-2.8C10.2,6,9,4.7,7.4,4.7
+L7.4,4.7z M7.4,8.4C6.9,8.4,6.5,8,6.5,7.5s0.4-0.9,0.9-0.9S8.3,7,8.3,7.5l0,0C8.3,8,7.9,8.4,7.4,8.4z" />
+                                    </g>
+                                </g>
+                        <g transform="translate(15.869 40.612)">
+                        <g>
+                        <path d="M7.4,4.7C5.9,4.7,4.6,6,4.6,7.5c0,1.5,1.3,2.8,2.8,2.8c1.5,0,2.8-1.3,2.8-2.8C10.2,6,9,4.7,7.4,4.7
+L7.4,4.7z M7.4,8.4C6.9,8.4,6.5,8,6.5,7.5s0.4-0.9,0.9-0.9c0.5,0,0.9,0.4,0.9,0.9l0,0C8.3,8,7.9,8.4,7.4,8.4z" />
+                                    </g>
+                                </g>
+                            </g>
+                        <g>
+                        <path class="line_ l1"
+                              d="M37.6,32.4c0,0.5,0.4,0.9,0.9,0.9h16.2c0.5,0,0.9-0.4,0.9-0.9s-0.4-0.9-0.9-0.9H38.5C38,31.5,37.6,31.9,37.6,32.4z" />
+                        <path class="line_ l2"
+                              d="M54.7,36.3H38.5c-0.5,0-0.9,0.4-0.9,0.9s0.4,0.9,0.9,0.9h16.2c0.5,0,0.9-0.4,0.9-0.9S55.2,36.3,54.7,36.3z" />
+                        <path class="line_ l3"
+                              d="M54.7,41.2H38.5c-0.5,0-0.9,0.4-0.9,0.9S38,43,38.5,43h16.2c0.5,0,0.9-0.4,0.9-0.9S55.2,41.2,54.7,41.2z" />
+                        <path d="M58.9,19.8h-6.7H40.6h-8.7c-0.5,0-0.9,0.4-0.9,0.9v27.1c0,0.5,0.4,0.9,0.9,0.9h0.5h26.1h0.5c0.5,0,0.9-0.4,0.9-0.9V20.8
+C59.8,20.3,59.4,19.8,58.9,19.8z M40.9,21.7h11H58l0,5.6h-5H39.8h-7l0-5.6H40.9z M58,47h-0.2H33.1h-0.2l0-17.8h6H54h4L58,47z" />
+                            </g>
+                        <g class="hand_">
+                        <path fill="#FFFFFF" d="M12.6,39.1c0,0,5.3-8.6,6.1-10.3s3.8-1.8,5.4-0.8s3.9,2.3,4.7,2.7c0.8,0.4,2.1-0.4,2.7-1.6
+c0.6-1.2,3.1-5.4,4-6.7c0.9-1.3,4.7,0.4,3.9,2.4c-0.9,2-6,11.2-6,11.2l0.1,0.8c0,0,1.1-0.8,2.4,0.4c1.2,1.2,0.8,2.9,0.2,3.6
+c-0.6,0.7-4.3,6.2-4.8,7.3s-3.4,2.3-5.9,0.8l-3.7,5.7l-12-6.6l3.3-6C12.9,41.9,11.6,40.8,12.6,39.1z" />
+                        <path d="M30.2,29.4C30,29.8,29.4,30,29,29.7l-4.3-2.5c-2.6-1.5-5.8-0.6-7.3,1.9l-5.7,9.6c-0.6,1-0.5,2.3,0.3,3.2l-2.9,5
+c-0.4,0.7-0.2,1.7,0.6,2.1c0,0,0,0,0,0l10.7,6.3c0.7,0.4,1.7,0.2,2.1-0.6l2.9-4.9c0.7,0.3,1.5,0.5,2.3,0.5c0.5,0,1-0.1,1.5-0.2
+c0.9-0.2,1.8-0.6,2.4-1.3c0.4-0.4,5.3-8.3,5.3-8.3c1-1.7,0.5-3.8-1.2-4.8c-0.4-0.2-0.8-0.4-1.3-0.5l5.4-9.2
+c0.8-1.3,0.6-3.1-0.6-4.1c-1-0.8-3.4-1.8-4.7,0C34.4,22.3,30.2,29.4,30.2,29.4z M21.1,53.6l-10.2-6l2.7-4.6l10.2,6L21.1,53.6z M38.4,25.3c0,0,0.1,0.1,0.1,0.1C38.4,25.3,38.4,25.3,38.4,25.3z M38.3,25.1C38.3,25.2,38.3,25.2,38.3,25.1l-6.1,10.5
+c-0.3,0.6-0.1,1.3,0.4,1.6c0.3,0.2,0.7,0.2,1.1,0.1c0.4-0.2,0.8-0.1,1.1,0.1c0.8,0.5,1,1.5,0.5,2.3l-3.9,6.6l0,0l-0.1,0.1
+c-1.2,2-3.8,2.7-5.8,1.5l-0.1,0L13.7,41l0,0c-0.4-0.3-0.6-0.8-0.3-1.2l5.7-9.6c1-1.7,3.1-2.2,4.8-1.2l4.3,2.5c1.3,0.8,3,0.3,3.7-1
+l3.9-6.7c0.4-0.7,1.3-1,2-0.6C38.5,23.5,38.7,24.4,38.3,25.1z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="title_">Enterprise Application Services</h3>
+                    <div class="text_box">
+                        <p>
+                            Attractive and responsive web design is key to designing an engaging web experience for your
+                            users. Quality web design is important for startups and large businesses alike. Our
+                            Dubai-based team carefully curates your web design journey from start to finish to get you
+                            the best in the arena.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://entrolabs.com/mobile-app-development/" class="w_item">
+                    <div class="icon_">
+                        <svg x="0px" y="0px" viewBox="0 0 70.7 64" overflow="visible" xml:space="preserve">
+                        <g class="frame_">
+                        <path d="M53.9,2.7l-37.1,0c-1.6,0-2.9,1.3-2.9,2.9v31.2c0,0.5,0.4,1,1,1c0.5,0,1-0.4,1-1V12.5h39v24.4c0,0.5,0.4,1,0.9,1
+c0.5,0,1-0.4,1-0.9c0,0,0,0,0-0.1V5.7C56.8,4,55.5,2.7,53.9,2.7z M54.9,5.7v4.9h-39V5.7c0-0.5,0.4-1,0.9-1c0,0,0,0,0.1,0h37.1
+C54.4,4.7,54.8,5.1,54.9,5.7C54.9,5.6,54.9,5.6,54.9,5.7z" />
+                        <path d="M18.8,6.6C18.8,6.6,18.8,6.6,18.8,6.6L18.8,6.6c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1s1-0.4,1-1C19.8,7.1,19.3,6.6,18.8,6.6z" />
+                        <path d="M22.7,6.6C22.7,6.6,22.7,6.6,22.7,6.6L22.7,6.6c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1c0.5,0,1-0.4,1-1
+C23.7,7.1,23.2,6.6,22.7,6.6z" />
+                        <path d="M26.6,6.6L26.6,6.6c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1s1-0.4,1-1C27.6,7.1,27.1,6.6,26.6,6.6z" />
+                        <path d="M51.9,6.6H40.2c-0.5,0-1,0.5-0.9,1c0,0.5,0.5,0.9,1,0.9h11.7c0.5,0,1-0.5,0.9-1C52.9,7.1,52.5,6.7,51.9,6.6z" />
+                            </g>
+                        <g class="code_">
+                        <path d="M38.6,16.4c-0.1,0-0.2-0.1-0.3-0.1v0c-0.4,0-0.8,0.3-0.9,0.7l-5.9,17.6c-0.2,0.5,0.1,1.1,0.6,1.2c0.5,0.2,1.1-0.1,1.2-0.6
+l5.9-17.6C39.4,17.2,39.1,16.6,38.6,16.4z" />
+                        <polygon points="42.5,22 42.5,22 42.5,22 " />
+                        <path d="M49.8,25.5c0,0-0.1-0.1-0.1-0.1l-5.8-4.9c-0.2-0.2-0.4-0.2-0.7-0.2c-0.5,0-1,0.5-0.9,1c0,0.3,0.1,0.5,0.4,0.7l5,4.1l-5,4.1
+c-0.4,0.3-0.5,1-0.1,1.4c0.3,0.4,1,0.5,1.4,0.1l5.8-4.9C50,26.5,50.1,25.9,49.8,25.5z" />
+                        <path d="M28.3,20.6c-0.2-0.2-0.5-0.4-0.8-0.4l0,0c-0.2,0-0.4,0.1-0.6,0.2l-5.9,4.9c-0.4,0.3-0.5,1-0.1,1.4c0,0,0.1,0.1,0.1,0.1
+l5.9,4.9c0.4,0.3,1,0.3,1.4-0.1c0.3-0.4,0.3-1-0.1-1.4l-5-4.1l5-4.1C28.6,21.7,28.7,21.1,28.3,20.6z" />
+                            </g>
+                        <g>
+                        <path d="M61.7,8.6h-2c-0.5,0-1,0.4-1,0.9s0.4,1,0.9,1c0,0,0,0,0.1,0h2c0.5,0,1,0.4,1,0.9c0,0,0,0,0,0.1v28.3H8V11.5
+c0-0.5,0.4-1,0.9-1c0,0,0,0,0,0H11c0.5,0,1-0.4,1-0.9c0-0.5-0.4-1-0.9-1c0,0,0,0-0.1,0H9c-1.6,0-2.9,1.3-2.9,2.9v35.1
+c0,1.6,1.3,2.9,2.9,2.9h52.7c1.6,0,2.9-1.3,2.9-2.9V11.5C64.6,9.9,63.3,8.6,61.7,8.6z M62.7,46.6c0,0.5-0.4,1-0.9,1c0,0,0,0-0.1,0
+H9c-0.5,0-1-0.4-1-0.9c0,0,0,0,0,0v-4.9h54.6V46.6z" />
+                        <path d="M33.4,45.6h3.9c0.5,0.1,1-0.3,1.1-0.9s-0.3-1-0.9-1.1c0,0-0.1,0-0.1,0h-4c-0.5,0-0.9,0.5-0.9,1
+C32.5,45.2,32.9,45.6,33.4,45.6z" />
+                        <path d="M46.1,55.4h-1.6c-1.2-0.9-2.1-2.1-2.8-3.4c-0.2-0.5-0.8-0.7-1.3-0.5c-0.5,0.2-0.7,0.8-0.5,1.3c0.5,0.9,1,1.8,1.7,2.6H29
+c0.7-0.8,1.3-1.6,1.7-2.6c0.2-0.5,0-1.1-0.5-1.3c-0.1-0.1-0.3-0.1-0.4-0.1v0c-0.4,0-0.8,0.2-0.9,0.6c-0.7,1.3-1.6,2.5-2.8,3.4h-1.6
+c-1.6,0-2.9,1.3-2.9,2.9v1.9c0,0.5,0.4,1,1,1H48c0.5,0,1-0.4,1-1c0,0,0,0,0,0v-1.9C49,56.7,47.7,55.4,46.1,55.4z M47.1,58.3v1H23.7
+v-1c0-0.5,0.4-1,0.9-1c0,0,0,0,0,0h21.5C46.6,57.3,47.1,57.8,47.1,58.3C47.1,58.3,47.1,58.3,47.1,58.3z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="title_">Software Product Engineering</h3>
+                    <div class="text_box">
+
+                        <p>
+                            Our commitment to excellence, high technical standards, and exceptional customer service
+                            along with our years of flawless web development experience make EntroLabs as a
+                            trusted Web Development Company in India.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://entrolabs.com/interoperability/" class="w_item">
+                    <div class="icon_">
+                        <svg x="0px" y="0px" viewBox="0 0 65 64" overflow="visible" xml:space="preserve">
+                        <g>
+                        <path d="M23.3,53.2h-4.9c-2.9,0-2.9,4.5,0,4.5h4.9C26.2,57.6,26.2,53.2,23.3,53.2z M23.3,56h-4.9c-0.3,0-0.5-0.3-0.5-0.6
+c0-0.3,0.2-0.5,0.5-0.5v0h4.9c0.3,0,0.6,0.3,0.5,0.6C23.8,55.7,23.6,56,23.3,56z" />
+                        <path d="M37.3,49.3v-42C37.3,5.5,35.8,4,34,4H14.6c-0.5,0-0.8,0.4-0.8,0.9c0,0.4,0.4,0.8,0.8,0.8H34c0.9,0,1.6,0.7,1.6,1.6v2.4H6.1
+V7.3c0-0.9,0.7-1.6,1.6-1.6h2.3c0.5,0,0.8-0.4,0.8-0.9c0-0.4-0.4-0.8-0.8-0.8H7.7C5.9,4,4.4,5.5,4.4,7.3v50.4
+c0,1.8,1.5,3.3,3.3,3.3H34c1.8,0,3.3-1.5,3.3-3.3L37.3,49.3L37.3,49.3z M6.1,11.4h29.5v37.2v1.3H6.1V11.4z M35.6,57.7
+c0,0.9-0.7,1.6-1.6,1.6H7.7c-0.9,0-1.6-0.7-1.6-1.6v-6.1h29.5v0.7V57.7z" />
+                        <path class="sq_" d="M31.3,14.8h-8.1h-5.2h-8.1c-1.1,0-1.9,0.9-1.9,1.9v6c0,1.1,0.9,1.9,1.9,1.9h8.1h5.2h8.1c1.1,0,1.9-0.9,1.9-1.9v-6
+C33.3,15.7,32.4,14.8,31.3,14.8z M31.6,22.7c0,0.2-0.1,0.3-0.3,0.3h-8.1h-5.2h-8.1c-0.2,0-0.3-0.1-0.3-0.3v-6
+c0-0.2,0.1-0.3,0.3-0.3h8.1h5.2h8.1c0.2,0,0.3,0.1,0.3,0.3V22.7z" />
+                            </g>
+                        <g class="circle_">
+                        <path d="M25.6,32.7c-0.3-0.3-0.8-0.3-1.1,0l-5.4,5.4l-1.9-1.9c-0.3-0.3-0.9-0.3-1.2,0c-0.3,0.3-0.3,0.8,0,1.1l2.5,2.5
+c0.3,0.3,0.9,0.3,1.2,0l6-6C26,33.5,26,33,25.6,32.7z" />
+                        <g>
+                        <path d="M20.8,45.3c-4.9,0-9-4-9-9s4-9,9-9c4.9,0,9,4,9,9S25.8,45.3,20.8,45.3z M20.8,28.9c-4.1,0-7.4,3.3-7.4,7.4
+s3.3,7.4,7.4,7.4c4.1,0,7.4-3.3,7.4-7.4S24.9,28.9,20.8,28.9z" />
+                                </g>
+                            </g>
+                        <g class="hand_2">
+                        <path fill="#FFFFFF" d="M54.4,49.5c0,0-4.2,2.9-5.5,3c-1.3,0.2-4.6,0.3-5.4-2.1c-0.8-2.4-2-2-3.5-2.8s-11-5.8-12.3-6.4
+c-1.3-0.5-1.6-5.8,2.3-4.8s5.3,2.3,5.3,2.3s-6.4-12.7-8-15.6s3.1-5.8,4.8-3.3c1.7,2.5,5.6,10.6,5.6,10.6s0.3-1.9,2-2.6
+c1.7-0.7,3.3,0.7,3.3,0.7s-0.6-2.1,0.9-3c1.5-1,4.1,0.6,4.1,0.6s-0.6-2.1,1.4-3.2c1.9-1.1,3.1-0.6,3.8,0.7c0.7,1.3,4,7.7,4.7,9.2
+s1.3,5.8,2,6.9c0.7,1.1,1.9,3.6,1,5.3c-0.9,1.7-2.3,2.3-2.3,2.3L54.4,49.5z" />
+                        <path d="M61.3,40.8L61.3,40.8c-0.3-0.6-0.6-1.3-0.7-2c-0.8-3.4-2-6.7-3.7-9.8l-2.7-5.2c-1-1.8-3.3-2.5-5.1-1.5
+c-0.9,0.5-1.5,1.3-1.8,2.2c-2-0.7-4.1,0.4-4.8,2.3c0,0.1-0.1,0.2-0.1,0.2c-1.7-0.6-3.6,0.1-4.5,1.7c0,0-4.3-8.6-5.4-9.5
+c-0.4-0.3-0.8-0.5-1.2-0.7c-2-0.6-4.1,0.6-4.7,2.6c-0.2,0.6-0.2,1.2-0.1,1.8c0,0,0.2,0.6,0.7,1.7c1.9,3.6,6.5,12.4,6.5,12.4
+l-2.2-1.2l0,0c-0.3-0.2-0.7-0.3-1-0.3c-0.4,0-0.9-0.1-1.7,0.1c-1,0.3-1.8,1-2.3,2c-0.6,1.2-0.5,2.6,0.3,3.7
+c0.4,1.3,14.1,7.5,14.1,7.5c0.7,0.4,1.3,1,1.7,1.7c1.4,2.7,4.7,3.8,7.4,2.4c0,0,0,0,0,0l5-2.6c0.4-0.2,0.5-0.7,0.3-1.1
+c-0.2-0.4-0.7-0.5-1.1-0.3l-5,2.6c-1.9,1-4.1,0.2-5.1-1.6c0,0,0,0,0,0c-0.5-1.1-1.4-1.9-2.5-2.5L28.9,41c-2.4-1.2-0.7-4.9,1.8-3.8
+l4.6,2.4c0.4,0.2,0.9,0,1.1-0.4c0.1-0.2,0.1-0.5,0-0.7l-8-15.2c-1.3-2.5,2.2-4.7,3.5-2.2l5.6,10.8l1.5,2.8c0.2,0.4,0.7,0.5,1.1,0.3
+c0.4-0.2,0.5-0.7,0.3-1.1l-1.4-2.7c-0.3-1.1,0.3-2.3,1.5-2.6c0.7-0.2,1.4,0,1.9,0.4l1.6,3c0.2,0.4,0.7,0.5,1.1,0.3
+c0.4-0.2,0.5-0.7,0.3-1.1l-1.6-3.1c-0.1-1.2,0.8-2.1,2-2.2c0.5,0,1,0.1,1.4,0.5l1.6,3.1c0.2,0.4,0.7,0.5,1.1,0.3
+c0.4-0.2,0.5-0.7,0.3-1.1l-1.6-3.1c-0.1-1.1,0.8-2.1,1.9-2.2c0.8-0.1,1.6,0.4,2,1.1l2.7,5.2c1.6,3,2.7,6.1,3.5,9.4
+c0.2,0.8,0.5,1.7,0.9,2.4c1,1.8,0.2,4.1-1.6,5.1c-0.4,0.2-0.5,0.7-0.3,1.1c0.2,0.4,0.7,0.5,1.1,0.3C61.6,46.7,62.7,43.5,61.3,40.8z
+" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="title_">Mobility Solutions</h3>
+                    <div class="text_box">
+                        <p>
+                            In an era where mobile traffic takes the cake, EntroLabs has the best mobile app
+                            design &amp; development solutions in India. Our expert team gets you iOS, Android, and
+                            cross-platform mobile applications in India, backed by years of experience.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://entrolabs.com/technology-consulting/" class="w_item">
+                    <div class="icon_">
+                        <svg x="0px" y="0px" viewBox="0 0 65 64" overflow="visible" xml:space="preserve">
+                        <path d="M13.3,11.3c-2.1,0-3.8,1.7-3.8,3.8c0,2.1,1.7,3.8,3.8,3.8c2.1,0,3.8-1.7,3.8-3.8C17.2,13,15.5,11.3,13.3,11.3z M13.3,16.7
+c-0.9,0-1.5-0.7-1.5-1.6c0-0.9,0.7-1.5,1.6-1.5c0.9,0,1.5,0.7,1.5,1.5C14.9,16,14.2,16.7,13.3,16.7z" />
+                        <path d="M46.9,11.3H36.7c-2.1,0-3.8,1.7-3.8,3.8c0,2.1,1.7,3.8,3.8,3.8h10.1c2.1,0,3.8-1.7,3.8-3.8C50.7,13,49,11.3,46.9,11.3z M46.9,16.7H36.7c-0.9,0-1.6-0.7-1.6-1.5c0-0.9,0.7-1.6,1.6-1.6h10.1c0.9,0,1.5,0.7,1.5,1.6C48.4,16,47.7,16.7,46.9,16.7z" />
+                        <path d="M23.3,11.3c-2.1,0-3.8,1.7-3.8,3.8c0,2.1,1.7,3.8,3.8,3.8c2.1,0,3.8-1.7,3.8-3.8C27.1,13,25.4,11.3,23.3,11.3z M23.3,16.7
+c-0.9,0-1.5-0.7-1.5-1.6c0-0.9,0.7-1.5,1.6-1.5c0.9,0,1.5,0.7,1.5,1.5C24.8,16,24.1,16.7,23.3,16.7z" />
+                        <g class="code_box">
+                        <path d="M21.4,30.3C21.4,30.3,21.4,30.3,21.4,30.3c-0.6-0.1-1.2,0.2-1.4,0.8l-2.3,9.5c-0.2,0.6,0.2,1.2,0.8,1.4
+c0.6,0.2,1.2-0.2,1.4-0.8c0,0,0,0,0,0l2.3-9.5C22.4,31,22,30.4,21.4,30.3z" />
+                        <path d="M27.2,31.5c-0.4-0.5-1.2-0.5-1.6-0.1c-0.5,0.4-0.5,1.1-0.1,1.6l2.8,3.1l-2.8,3.1c-0.4,0.5-0.4,1.2,0.1,1.6
+c0.5,0.4,1.2,0.4,1.6-0.1l3.2-3.6c0.5-0.6,0.5-1.5,0-2.1L27.2,31.5z" />
+                        <path d="M14.4,31.4L14.4,31.4c-0.5-0.4-1.2-0.4-1.6,0.1l-3.2,3.6c-0.5,0.6-0.5,1.5,0,2.1l3.2,3.6c0.4,0.5,1.2,0.5,1.6,0.1
+c0.5-0.4,0.5-1.1,0.1-1.6l-2.8-3.1l2.8-3.1C14.9,32.5,14.9,31.8,14.4,31.4z" />
+                            </g>
+                        <path d="M56.6,12c-0.3-3.1-2.6-5.6-5.3-5.6H8.1c-3,0-5.4,2.8-5.4,6.2v32c0,3.4,2.4,6.2,5.4,6.2h6.7c0.6,0,1.1-0.5,1.1-1.1
+s-0.5-1.1-1.1-1.1c0,0,0,0,0,0H8.1c-1.7,0-3.1-1.8-3.1-3.9V23.8h49.4l0,11.8v8.9c0,2.1-1.4,3.9-3.1,3.9H28.9l0,0h-3.9
+c-0.6,0-1.1,0.5-1.1,1.1c0,0.6,0.5,1.1,1.1,1.1c0,0,0,0,0,0h0.4v0h25.9c3,0,5.4-2.8,5.4-6.2V31.5V12.6v0
+C56.7,12.4,56.6,12.2,56.6,12z M5,21.5L5,21.5v-8.9c0-2.1,1.4-3.9,3.1-3.9h43.2c1.7,0,3.1,1.8,3.1,3.9c0,0,0,0,0,0l0,8.9H5z" />
+                        <g class="nute_">
+                        <path fill="#FFFFFF" d="M47.4,58.6c-0.7,0-1.3-0.6-1.3-1.3V56c0-0.1,0-0.1-0.1-0.1c-1.2-0.3-2.3-0.7-3.4-1.4c0,0-0.1,0-0.1,0
+c0,0-0.1,0-0.1,0l-0.9,0.9c-0.2,0.2-0.6,0.4-0.9,0.4c-0.3,0-0.7-0.1-0.9-0.4L38.3,54c-0.5-0.5-0.5-1.3,0-1.8l1-0.9
+c0,0,0.1-0.1,0-0.2c-0.7-1-1.1-2.2-1.4-3.3c0-0.1-0.1-0.1-0.1-0.1h-1.3c-0.7,0-1.3-0.6-1.3-1.3v-2.1c0-0.7,0.6-1.3,1.3-1.3h1.3
+c0.1,0,0.1,0,0.1-0.1c0.3-1.2,0.7-2.3,1.4-3.3c0-0.1,0-0.1,0-0.2l-0.9-0.9c-0.2-0.2-0.4-0.6-0.4-0.9c0-0.3,0.1-0.6,0.4-0.9l1.5-1.5
+c0.2-0.2,0.6-0.4,0.9-0.4c0.3,0,0.7,0.1,0.9,0.4l0.9,0.9c0,0,0.1,0,0.1,0c1.1-0.7,2.2-1.2,3.4-1.4c0.1,0,0.1-0.1,0.1-0.1v-1.3
+c0-0.7,0.6-1.3,1.3-1.3h2.1c0.7,0,1.3,0.6,1.3,1.3v1.3c0,0.1,0,0.1,0.1,0.1c1.2,0.3,2.4,0.7,3.4,1.4c0,0,0.1,0,0.1,0
+c0,0,0.1,0,0.1,0l0.9-0.9c0.2-0.2,0.6-0.4,0.9-0.4c0.3,0,0.7,0.1,0.9,0.4l1.5,1.5c0.2,0.2,0.4,0.6,0.4,0.9c0,0.3-0.1,0.7-0.4,0.9
+l-0.9,0.9c0,0-0.1,0.1,0,0.2c0.7,1,1.1,2.2,1.4,3.4c0,0.1,0.1,0.1,0.1,0.1h1.3c0.7,0,1.3,0.6,1.3,1.2l0,2.1c0,0.7-0.6,1.3-1.3,1.3
+h-1.3c-0.1,0-0.1,0-0.1,0.1c-0.3,1.2-0.7,2.3-1.4,3.3c0,0.1,0,0.1,0,0.2l0.9,0.9c0.2,0.2,0.4,0.6,0.4,0.9c0,0.3-0.1,0.7-0.4,0.9
+l-1.5,1.5c-0.2,0.2-0.6,0.4-0.9,0.4c-0.4,0-0.7-0.1-0.9-0.4l-0.9-0.9c0,0-0.1,0-0.1,0c-1.1,0.7-2.2,1.1-3.4,1.4
+c-0.1,0-0.1,0.1-0.1,0.1v1.3c0,0.7-0.6,1.3-1.2,1.3l0,0H47.4z" />
+                        <path d="M60.5,41.7h-0.4c-0.2-0.7-0.5-1.4-0.9-2.1l0.5-0.5c1-1,0.9-2.5-0.2-3.4l-0.6-0.6c0,0-1.4-1.4-2.3-1.6c-0.1,0-0.3,0-0.4,0
+c-0.7,0-1.3,0.3-1.8,0.7l-0.3,0.3c-0.7-0.4-1.4-0.6-2.1-0.9v-0.4c0-1.4-1.1-2.6-2.6-2.6h-2.1c-1.4,0-2.6,1.1-2.6,2.6v0.4
+c-0.7,0.2-1.4,0.5-2.1,0.9l-0.3-0.3c-0.5-0.5-1.1-0.8-1.8-0.8c-0.7,0-1.3,0.3-1.8,0.7l-1.5,1.5c-1,1-1,2.6,0,3.6l0.3,0.3
+c-0.3,0.7-0.6,1.3-0.8,2h-0.4c-1.4,0-2.6,1.1-2.6,2.6l0.1,2.9c0.1,1,0.8,1.7,1.8,1.7h1.1c0.2,0.7,0.5,1.4,0.9,2.1l-0.3,0.3
+c-1,1-1,2.6,0,3.6l1.5,1.5c0.5,0.5,1.1,0.8,1.8,0.8c0.7,0,1.3-0.3,1.8-0.7l0.3-0.3c0.7,0.3,1.4,0.6,2.1,0.9v0.4
+c0,1.4,1.1,2.6,2.6,2.6h2.1c1.4,0,2.6-1.1,2.6-2.6v-0.4c0.7-0.2,1.4-0.5,2.1-0.9l0.3,0.3c0.5,0.5,1.1,0.8,1.8,0.8
+c0.7,0,1.3-0.3,1.8-0.8l1.7-1.7c1-1,0.9-2.5-0.2-3.4L59.2,51c0.3-0.7,0.6-1.3,0.9-2.1h0.4c1.4,0,2.6-1.1,2.6-2.6v-2.1
+C63,42.9,61.9,41.7,60.5,41.7z M60.8,46.4c0,0.2-0.1,0.3-0.3,0.3h-1.3c-0.5,0-1,0.4-1.1,0.9c-0.2,1.1-0.7,2.1-1.3,3
+c-0.3,0.5-0.2,1,0.2,1.4l0.9,0.9C57.9,53,58,53,58,53.1c0,0.1,0,0.1-0.1,0.2l-1.5,1.5c-0.1,0.1-0.1,0.1-0.2,0.1
+c-0.1,0-0.1,0-0.2-0.1l-0.9-0.9c-0.4-0.4-1-0.4-1.4-0.2c-0.9,0.6-2,1-3.1,1.3c-0.5,0.1-0.9,0.6-0.9,1.1v1.3c0,0.1-0.1,0.3-0.3,0.3
+h-2.1c-0.2,0-0.3-0.1-0.3-0.3V56c0-0.5-0.4-1-0.9-1.1c-1.1-0.2-2.1-0.7-3-1.3c-0.5-0.3-1-0.2-1.4,0.2l-0.9,0.9
+c-0.1,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.1,0-0.2-0.1L39,53.3c-0.1-0.1-0.1-0.3,0-0.4l0.9-0.9c0.4-0.4,0.4-1,0.2-1.4c-0.6-0.9-1-2-1.3-3
+c-0.1-0.5-0.6-0.9-1.1-0.9h-1.3c-0.2,0-0.3-0.1-0.3-0.3v-2.1c0-0.2,0.1-0.3,0.3-0.3h1.3c0.5,0,1-0.4,1.1-0.9c0.2-1.1,0.7-2.1,1.2-3
+c0.3-0.5,0.2-1-0.2-1.4L39,37.7c-0.1,0-0.1-0.1-0.1-0.2c0-0.1,0-0.1,0.1-0.2l1.5-1.5c0.1-0.1,0.1-0.1,0.2-0.1c0.1,0,0.1,0,0.2,0.1
+l0.9,0.9c0.4,0.4,1,0.4,1.4,0.2c0.9-0.6,2-1,3-1.3c0.5-0.1,0.9-0.6,0.9-1.1v-1.3c0-0.2,0.1-0.3,0.3-0.3h2.1c0.2,0,0.3,0.1,0.3,0.3
+v1.3c0,0.5,0.4,1,0.9,1.1c1.1,0.2,2.1,0.7,3.1,1.3c0.5,0.3,1,0.2,1.4-0.2l0.9-0.9c0.1-0.1,0.1-0.1,0.2-0.1c0.1,0,0.1,0,0.2,0.1
+l1.5,1.5c0.1,0.1,0.1,0.1,0.1,0.2c0,0.1,0,0.1-0.1,0.2L57,38.6c-0.4,0.4-0.4,1-0.2,1.4c0.6,0.9,1,2,1.3,3.1
+c0.1,0.5,0.6,0.9,1.1,0.9h1.3c0.2,0,0.3,0.1,0.3,0.3L60.8,46.4z" />
+                        <path d="M48.4,38.3c-3.9,0-7,3.1-7,7s3.1,7,7,7c3.9,0,7-3.1,7-7C55.4,41.5,52.3,38.3,48.4,38.3z M48.4,50c-2.6,0-4.7-2.1-4.7-4.7
+c0-2.6,2.1-4.7,4.7-4.7s4.7,2.1,4.7,4.7C53.1,47.9,51,50,48.4,50z" />
+                            </g>
+                        <path d="M19.9,48.5C19.9,48.5,19.9,48.5,19.9,48.5L19.9,48.5c-0.7,0-1.2,0.5-1.2,1.1c0,0.6,0.5,1.1,1.1,1.1c0,0,0,0,0,0h0
+c0.6,0,1.1-0.5,1.1-1.1C21,49,20.5,48.5,19.9,48.5z" />
+                        </svg>
+                    </div>
+                    <h3 class="title_">Business Process Services</h3>
+                    <div class="text_box">
+                        <p>
+                            We aim to transform your value-driven concepts into diligent solutions with the best
+                            software
+                            services in place. Our software development techniques are driven by modern means to deliver
+                            you nothing but the best.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://entrolabs.com/retail-digital-payment-solutions/" class="w_item">
+                    <div class="icon_">
+                        <svg x="0px" y="0px" viewBox="0 0 70.7 64" overflow="visible" xml:space="preserve">
+                        <g>
+                        <path d="M10.4,24.6c1.5-1,3.1-1.7,4.9-1.8c0.5-0.1,0.9-0.5,0.8-1c0-0.4-0.1-0.8-0.1-1.2c0-10,8.1-18,18.1-18
+c4.7,0,9.3,1.9,12.7,5.3c0.4,0.4,0.9,0.4,1.3,0s0.4-0.9,0-1.3C40.3-1.2,27.7-1.2,20,6.6c-3.7,3.7-5.8,8.7-5.8,13.9
+c0,0.2,0,0.4,0,0.5c-6.7,1.2-11.1,7.6-9.9,14.3c0.3,1.8,1,3.4,2,4.9c0.3,0.4,0.9,0.5,1.3,0.2c0.4-0.3,0.5-0.8,0.2-1.2
+C4.5,34.5,5.6,28,10.4,24.6z" />
+                        <path d="M53.3,15.9c-0.5-2.2-1.4-4.3-2.7-6.2c-0.3-0.4-0.8-0.5-1.3-0.3c-0.4,0.3-0.5,0.8-0.3,1.3c1.2,1.9,2.1,4,2.6,6.2
+c0.1,0.4,0.4,0.7,0.8,0.7c7.2,0.4,12.6,6.6,12.2,13.7c-0.4,6.8-6.1,12.2-12.9,12.2l-35.4,0c-2.1,0-4.2-0.6-5.9-1.8
+c-0.4-0.3-1-0.2-1.3,0.2S9,43,9.4,43.3c2,1.4,4.5,2.2,6.9,2.2l35.4,0c8.2,0,14.8-6.6,14.9-14.7C66.7,23.1,60.9,16.7,53.3,15.9z" />
+                            </g>
+                        <g class="cloud_s">
+                        <path fill="#FFFFFF" d="M22.3,29.2v-8.5c0,0,2.1-4.2,9.4-4c7.4,0.1,14.2,0.8,15.9,2.9c1.6,2.2,0.7,9.8,0.7,9.8s-0.7,1.6-2.3,2.4
+c0,0,2.6,1.3,2.6,3.1c0,1.8,0.1,7.5,0,8c-0.1,0.5-3.8,3.8-7.9,4c-4.1,0.2-9.3,0.5-13.6-0.6c-2.8-0.7-4.7-1.2-4.8-4.1
+c-0.1-2.9,0-7.9,0-8.6c0-0.7,3.3-1.8,3.3-1.8S23,31.9,22.3,29.2z" />
+                        <path d="M49.2,42.9v-8.4c0-0.8-0.4-1.8-1.9-2.7c1.1-0.5,1.8-1.5,1.9-2.7v-8.4c0-3.3-7-5.1-13.9-5.1s-13.9,1.8-13.9,5.1v8.4
+c0.1,1.2,0.8,2.2,1.9,2.7c-1.5,0.9-1.9,1.9-1.9,2.7v8.4c0,0.2-0.1,0.9,0.4,1.4c0.6,0.7,2.4,1.8,3.1,2v3.5h-0.9
+c-0.5,0-0.9,0.4-0.9,0.9v0.9H5c-0.5,0-0.9,0.4-0.9,0.9s0.4,0.9,0.9,0.9h18v0.9c0,0.5,0.4,0.9,0.9,0.9h3.7c0.5,0,0.9-0.4,0.9-0.9
+v-3.7c0-0.5-0.4-0.9-0.9-0.9h-0.9V47c1.6,0.4,3.3,0.7,5,0.9v9.7l-2.1,2h-20v-0.9c0-0.5-0.4-0.9-0.9-0.9H5c-0.5,0-0.9,0.4-0.9,0.9
+v3.7c0,0.5,0.4,0.9,0.9,0.9h3.7c0.5,0,0.9-0.4,0.9-0.9v-0.9H30c0.3,0,0.5-0.1,0.7-0.3l2.6-2.6c0.2-0.2,0.3-0.4,0.3-0.7v-9.9
+c0.6,0,1.2,0,1.9,0s1.2,0,1.9,0v9.9c0,0.3,0.1,0.5,0.3,0.7l2.6,2.6c0.2,0.2,0.4,0.3,0.7,0.3h20.4v0.9c0,0.5,0.4,0.9,0.9,0.9h3.7
+c0.5,0,0.9-0.4,0.9-0.9v-3.7c0-0.5-0.4-0.9-0.9-0.9H62c-0.5,0-0.9,0.4-0.9,0.9v0.9h-20L39,57.5v-9.7c1.7-0.1,3.3-0.4,5-0.9v2.9H43
+v0c-0.5,0-0.9,0.4-0.9,0.9v3.7c0,0.5,0.4,0.9,0.9,0.9h3.7c0.5,0,0.9-0.4,0.9-0.9v-0.9h18c0.5,0,0.9-0.4,0.9-0.9
+c0-0.5-0.4-0.9-0.9-0.9h-18v-0.9c0-0.5-0.4-0.9-0.9-0.9h-0.9v-3.5c0.6-0.2,1.2-0.5,1.8-0.9C47.5,45.5,49.3,44.4,49.2,42.9z M7.7,61.4H5.9v-1.8h1.8V61.4z M62.9,59.6h1.8v1.8h-1.8V59.6z M26.4,18.7c2.9-0.8,5.9-1.2,8.9-1.2c3-0.1,6,0.3,8.9,1.2
+c2.2,0.7,3.2,1.6,3.2,2.1s-1,1.4-3.2,2.1c-2.9,0.8-5.9,1.2-8.9,1.2c-3,0.1-6-0.3-8.9-1.2c-2.2-0.7-3.2-1.6-3.2-2.1
+S24.2,19.4,26.4,18.7z M26.7,53.5h-1.8v-1.8h1.8L26.7,53.5z M45.8,53.5H44v-1.8h1.8V53.5z M30.4,39.3
+C30.4,39.3,30.5,39.4,30.4,39.3c1.7,0.2,3.3,0.3,4.9,0.3c4.8,0,9.5-0.8,12.1-2.4v5.7c0,0.5-1,1.4-3.2,2.1c-2.9,0.8-5.9,1.2-8.9,1.2
+l0,0c-3,0.1-6-0.3-8.9-1.2c-2.2-0.7-3.2-1.6-3.2-2.1v-5.7c0.9,0.5,1.8,0.9,2.7,1.2c0.5,0.2,1-0.1,1.1-0.6c0.2-0.5-0.1-1-0.6-1.1
+c-1.6-0.5-3.3-1.4-3.3-2.1c0-0.4,0.6-1.1,2.2-1.7c3.2,1,6.6,1.5,9.9,1.4c0.5,0,0.9-0.4,0.9-0.9s-0.4-0.9-0.9-0.9
+c-3,0.1-6-0.3-8.9-1.2c-2.2-0.7-3.2-1.6-3.2-2.1v-5.7c2.5,1.6,7.3,2.4,12.1,2.4s9.5-0.8,12.1-2.4v5.7c0,0.4-0.5,1-1.8,1.6
+c-1.8,0.8-3.8,1.2-5.7,1.4c-0.5,0.1-0.9,0.5-0.8,1c0.1,0.5,0.4,0.8,0.9,0.8c0,0,0.1,0,0.1,0c1.8-0.2,3.5-0.6,5.2-1.1
+c1.6,0.7,2.1,1.3,2.1,1.7c0,0.5-1,1.4-3.2,2.1c-2.9,0.8-5.9,1.2-8.9,1.2c-1.5,0-3.1-0.1-4.6-0.3c-0.5-0.1-1,0.3-1,0.8
+C29.6,38.8,29.9,39.3,30.4,39.3z" />
+                        <path class="blink_ b1"
+                              d="M35.3,28.1c-0.5,0-0.9,0.4-0.9,0.9c0,0.5,0.4,0.9,0.9,0.9c0.5,0,0.9-0.4,0.9-0.9v0C36.2,28.5,35.8,28.1,35.3,28.1z" />
+                        <path class="blink_ b2" d="M30.6,27.9C30.6,27.9,30.6,27.9,30.6,27.9c-0.5,0-0.9,0.4-0.9,0.9c0,0.5,0.4,0.9,0.9,0.9c0.5,0,0.9-0.4,0.9-0.9
+c0,0,0,0,0,0C31.5,28.3,31.1,27.9,30.6,27.9z" />
+                        <path class="blink_ b3"
+                              d="M40,27.9c-0.5,0-0.9,0.4-0.9,0.9c0,0.5,0.4,0.9,0.9,0.9s0.9-0.4,0.9-0.9C40.9,28.3,40.5,27.9,40,27.9z" />
+                        <path class="blink_ b4"
+                              d="M35.3,41.9c-0.5,0-0.9,0.4-0.9,0.9s0.4,0.9,0.9,0.9s0.9-0.4,0.9-0.9C36.2,42.3,35.8,41.9,35.3,41.9z" />
+                        <path class="blink_ b5"
+                              d="M30.6,41.6c-0.5,0-0.9,0.4-0.9,0.9s0.4,0.9,0.9,0.9c0.5,0,0.9-0.4,0.9-0.9C31.5,42,31.1,41.6,30.6,41.6z" />
+                        <path class="blink_ b6" d="M40,41.6C40,41.6,40,41.6,40,41.6c-0.5,0-0.9,0.4-0.9,0.9c0,0.5,0.4,0.9,0.9,0.9c0.5,0,0.9-0.4,0.9-0.9
+C40.9,42,40.5,41.6,40,41.6z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="title_">Industry & Platform Solutions</h3>
+                    <div class="text_box">
+                        <p>
+                            Our premier quality support and secure hosting services to businesses in India help create a
+                            smooth web experience. We provide optimized performance, application maintenance, and
+                            bettered functionalities across all features to improve your web presence.
+                        </p>
+                    </div>
+                </a>
+                <!--<a href="product-research-and-development.html" class="w_item">
+                    <div class="icon_">
+                        <svg viewBox="0 0 62 62">
+                            <g transform="translate(-1 -1)">
+                                <g class="heart_">
+                                    <path
+                                        d="M32.785,51.989l4.805,4.12a3.7,3.7,0,0,0,4.82,0l4.806-4.119A5.11,5.11,0,0,0,43.891,43H43.7a5.072,5.072,0,0,0-3.613,1.5l-.09.089-.089-.089A5.072,5.072,0,0,0,36.3,43H36.11a5.109,5.109,0,0,0-3.325,8.989ZM36.109,45H36.3a3.089,3.089,0,0,1,2.2.911l1.5,1.5,1.5-1.5A3.089,3.089,0,0,1,43.7,45h.188a3.11,3.11,0,0,1,2.024,5.471l-4.805,4.118a1.752,1.752,0,0,1-2.219,0l-4.8-4.119A3.11,3.11,0,0,1,36.109,45Z" />
+                                </g>
+                                <path
+                                    d="M56.343,35A6.6,6.6,0,0,0,53,35.906V33H51V28.414l2,2V32h2V29.586L53.414,28,55,26.414V20a3,3,0,0,0-3-3H51V16a3,3,0,0,0-3-3H47V4a3,3,0,0,0-3-3H12.828a2.982,2.982,0,0,0-2.121.879L1.879,10.707A2.982,2.982,0,0,0,1,12.828V56a3,3,0,0,0,3,3H27.1A5.009,5.009,0,0,0,32,63H48a5,5,0,0,0,4.987-4.871A15.085,15.085,0,0,0,63,44V41.657A6.664,6.664,0,0,0,56.343,35ZM51,19h1a1,1,0,0,1,1,1v5.586l-2,2Zm-3-4a1,1,0,0,1,1,1v5H43V16a1,1,0,0,1,1-1Zm1,8V33H43V23ZM11,4.414V10a1,1,0,0,1-1,1H4.414ZM27,33V57H4a1,1,0,0,1-1-1V13h7a3,3,0,0,0,3-3V3H44a1,1,0,0,1,1,1v9H44a3,3,0,0,0-3,3V33H39V19.764l-2.658-5.317a2.619,2.619,0,0,0-4.684,0L29,19.764V33Zm4.618-14,1.829-3.657a.64.64,0,0,1,1.1,0L36.382,19ZM33,21V33H31V21Zm2,0h2V33H35ZM51,58a3,3,0,0,1-3,3H32a3,3,0,0,1-3-3V39H51Zm0-21H29V35H51Zm2,7.071,2.877-2.878A.649.649,0,0,1,56.343,41a.658.658,0,0,1,.657.657V44a8.993,8.993,0,0,1-4,7.462ZM61,44a13.081,13.081,0,0,1-8,11.985V53.792A11,11,0,0,0,59,44V41.657a2.657,2.657,0,0,0-4.536-1.879L53,41.243V38.414l.05-.05A4.657,4.657,0,0,1,61,41.657Z" />
+                                <g class="r_lines">
+                                    <path d="M5,55h6V49H5Zm2-4H9v2H7Z" />
+                                    <path d="M13,49H25v2H13Z" />
+                                    <path d="M23,53h2v2H23Z" />
+                                    <path d="M13,53h8v2H13Z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="title_">Branding</h3>
+                    <div class="text_box">
+                        <p>
+                            <span
+                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;At EntroLabs, we believe your brand is your identity that connects you with people and makes you standout among your competitors\n\nOur Branding team will help you transform your brand into a powerful, visual indentity that aids your website design.&quot;}"
+                                data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">
+                                We
+                                believe your brand is your identity that connects you with people and makes you stand
+                                out among your competitors. Our Branding team will help you transform your brand into a
+                                powerful, visual identity that aids your website design.
+                            </span>
+                        </p>
+                    </div>
+                </a>-->
+            </div>
+        </div>
+    </section>
+
+    <section class="home-section key-points-section" id="key-points" data-scroll>
+        <div class="container">
+            <div class="key_points_wrap">
+                <p class="text">With <strong>7</strong> years of </p>
+                <p class="text">
+                    <span class="tite">Web Design & Development</span> experience, we bring excellence and premium
+                    quality to your
+                    business.
+                </p>
+                <p class="text">
+                    <span class="tite">At EntroLabs</span>, we provide the finest, <span class="tite">
+                        creative web and
+                        app solutions
+                    </span> for your tech
+                    needs,
+                </p>
+                <p class="text">
+                    and help create a <span class="tite">seamless experience</span> that puts you a cut
+                    above the rest.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-section inView" id="blog" data-scroll="">
+        <div class="container">
+            <div class="title_wrap text-center text-uppercase"><h2>Technologies</h2></div>
+            <div class="blog_wrap">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <article class="swiper-slide b_item">
+                            <a href="https://entrolabs.com/mobile-app-development-technology/" class="inner_">
+                                <figure>
+                                    <picture>
+                                        <img src="https://entrolabs.com/assets/images/technologies/mobile-application-development-technology.jpg"
+                                             alt="image"
+                                             data-lazy-src="https://entrolabs.com/assets/images/technologies/mobile-application-development-technology.jpg"
+                                             data-ll-status="loaded"
+                                             class="entered lazyloaded" />
+                                    </picture>
+                                    <figcaption>
+                                        <h4>Mobile App Development</h4>
+                                        <div class="text_box">
+                                            <p></p>
+                                            <p>
+                                                Entro Labs helps in building mobile apps that meet the needs of customers and staff with efficiency
+                                            </p>
+                                            <p></p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                        <article class="swiper-slide b_item">
+                            <a href="https://entrolabs.com/web-application-development-technology/"
+                               class="inner_">
+                                <figure>
+                                    <picture>
+                                        <img src="https://entrolabs.com/assets/images/technologies/web-application-development-technolgy.jpg"
+                                             alt="image"
+                                             data-lazy-src="https://entrolabs.com/assets/images/technologies/web-application-development-technolgy.jpg"
+                                             data-ll-status="loaded"
+                                             class="entered lazyloaded" />
+                                    </picture>
+                                    <figcaption>
+                                        <h4>Web Application Development</h4>
+                                        <div class="text_box">
+                                            <p></p>
+                                            <p>We design, build, and evolve web-based software. We custom develop impactful, full-scale and next-gen web apps. </p>
+                                            <p></p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                        <article class="swiper-slide b_item">
+                            <a href="https://entrolabs.com/api-development-and-integration-services/" class="inner_">
+                                <figure>
+                                    <picture>
+                                        <img src="https://entrolabs.com/assets/images/technologies/api-development-services.jpg"
+                                             alt="image"
+                                             data-lazy-src="https://entrolabs.com/assets/images/technologies/api-development-services.jpg"
+                                             data-ll-status="loaded"
+                                             class="entered lazyloaded" />
+                                    </picture>
+                                    <figcaption>
+                                        <h4>Services and API Development</h4>
+                                        <div class="text_box">
+                                            <p></p>
+                                            <p>
+                                                Through our API development services you can eliminate silos and completely transform your business model with a data-driven
+                                            </p>
+                                            <p></p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="key_points_wrap" id="key_scene">
+        <div class="k_item ">
+            <h6>
+                <div class="imgBox">
+                    <picture>
+                        <img loading="lazy" src="https://entrolabs.com/assets/images/icons/calendar.gif" alt="calendar gif" />
+                    </picture>
+                </div>
+                <div class="c_"> <strong data-count="7">7</strong> <span>Years</span> </div>
+            </h6>
+        </div>
+        <div class="k_item">
+            <h6>
+                <div class="imgBox">
+                    <picture>
+                        <img loading="lazy" src="https://entrolabs.com/assets/images/icons/website.gif" alt="website gif" />
+                    </picture>
+                </div>
+                <div class="c_"> <strong data-count="250">250</strong> <span>Projects</span> </div>
+            </h6>
+        </div>
+        <div class="k_item">
+            <h6>
+                <div class="imgBox">
+                    <picture>
+                        <img loading="lazy" src="https://entrolabs.com/assets/images/icons/clients.gif" alt="clients gif" />
+                    </picture>
+
+                </div>
+                <div class="c_"> <strong data-count="60">60</strong> <span>Clients</span> </div>
+            </h6>
+        </div>
+        <div class="k_item">
+            <h6>
+                <div class="imgBox">
+                    <picture>
+                        <img loading="lazy" src="https://entrolabs.com/assets/images/icons/mobile-app.gif" alt="mobile-app gif" />
+                    </picture>
+
+                </div>
+                <div class="c_"> <strong data-count="90">90</strong> <span>Mobile Apps</span> </div>
+            </h6>
+        </div>
+    </div>
+
+    <section class="home-section no_padd_bottom " id="why_us">
+        <div class="container">
+            <div class="about_wrap alTop">
+                <div class="img_box">
+                    <div class="img_box">
+                        <picture>
+                            <source data-lazy-srcset="" type="image/webp">
+                            <img loading="lazy" src="https://entrolabs.com/assets/images/updated-branding.jpg" loading="lazy" alt="image" width="500"
+                                 height="786">
+                        </picture>
+                    </div>
+                </div>
+                <div class="content_wrap">
+                    <div class="whySlider">
+                        <div class="title_box">
+                            <h2>Why choose EntroLabs?</h2>
+                        </div>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide whItem">
+                                    <div class="text_box">
+                                        <p>
+                                        Entrolabs bridges the gap for your businesses and industries.
+                                        <a title="Web Development Company in India" href="#">
+                                         Our innovative software simplifies</a> tasks using advanced technology. This is achieved by our skilled team with years of experience simplifying work life and ensuring client convenience.We prefer stable and long-term client commitment. The majority of our clients have been traveling with us since the company was founded. Our collaborative approach tackles industry challenges while upholding core values.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide whItem">
+                                    <div class="text_box">
+                                        <p>
+                                        <a title="Web Development Company in India" href="#">
+
+                                        Choose EntroLabs </a> <i>to streamline your <i>
+                                        <a title="Web Development Company in India" href="#">
+                                                business and industry needs </a>
+                                                </a>
+                                            </i>. Let's work hand in hand to overcome obstacles and achieve success.</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p>&nbsp;</p>
+    <section class="home-section " id="clients-container" data-scroll>
+  <div class="container px-0">
+    <div class="title_wrap text-center text-uppercase">
+      <h2>Our Clients</h2>
+    </div>
+    <div class="slick-wrapper">
+  <div id="slick1">
+  <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/AP-GOVT.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+	<div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/TS-GOVT.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+  <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/NationalHealthMissionlogo.png" loading="lazy" alt="NationalHealthMissionlogo">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/APMSIDC.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/APSDM.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/SwatchAndhra.png" loading="lazy" alt="SwatchAndhra">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/PANCHAYATHRAJ.png" loading="lazy" alt="PANCHAYATHRAJ">
+            </picture>
+          </figure>
+          </div>
+          <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/GODHAVARI-GAS.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/Phoenix.png" loading="lazy" alt="Phoenix">
+            </picture>
+          </figure>
+    </div>
+     
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/Pinelabs.png" loading="lazy" alt="Pinelabs">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/Ezetap.png" loading="lazy" alt="Ezetap">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/CELEKTmobiles.png" loading="lazy" alt="CELEKTmobiles">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/NTTdatalogo.png" loading="lazy" alt="NTTdatalogo">
+            </picture>
+          </figure>
+          </div>
+          
+    
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/AP-INTERMEDIATE-BOARD.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/EndowmentDept.png" loading="lazy" alt="SRKRengcollege">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/SRKRengcollege.png" loading="lazy" alt="SRKRengcollege">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/TSBCESDTClogo.png" loading="lazy" alt="TSBCESDTClogo">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/KAUDAKAKINADA.png" loading="lazy" alt="KAUDAKAKINADA">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/RUDA.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/ONGOLE-URBAN.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/MUDA.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/ANNAMAYYA-URBAN.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/KUDAkurnoolurban.png" loading="lazy" alt="KUDAkurnoolurban">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/SUDASrikakulamUrban.png" loading="lazy" alt="SUDASrikakulamUrban">
+            </picture>
+          </figure>
+    </div>
+		<div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/AHUDA.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/PUDA.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/PKMUDA.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/MCKGC.png" loading="lazy" alt="client">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/SRKRalumni.png" loading="lazy" alt="SRKRalumni">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/GEMgroup.png" loading="lazy" alt="GEMgroup">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/WomenandChildAP.png" loading="lazy" alt="WomenandChildAP">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/StateBoardofTechnicalEducationTrainingAP.png" loading="lazy" alt="StateBoardofTechnicalEducationTrainingAP">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/YSRarogyaSree.png" loading="lazy" alt="YSRarogyaSree">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/APCOS.png" loading="lazy" alt="APCOS">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/KadapaMunicipality.png" loading="lazy" alt="KadapaMunicipality">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/GreaterVishakaMunicipal.png" loading="lazy" alt="GreaterVishakaMunicipal">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/GunturMunicipality.png" loading="lazy" alt="GunturMunicipality">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/MangalagiriTadepalliMunicipality.png" loading="lazy" alt="MangalagiriTadepalliMunicipality">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/Mouritechlogo.png" loading="lazy" alt="Mouritechlogo">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/Emesco.png" loading="lazy" alt="Emesco">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/sreenidhilogo.png" loading="lazy" alt="sreenidhilogo">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/zoninnovationlogoalt.png" loading="lazy" alt="zoninnovationlogoalt">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/DigiSprint.png" loading="lazy" alt="DigiSprint">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/Shivanipumps.png" loading="lazy" alt="Shivanipumps">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/SmallAll.png" loading="lazy" alt="SmallAll">
+            </picture>
+          </figure>
+    </div>
+    <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/MicrocareComputers.png" loading="lazy" alt="MicrocareComputers">
+            </picture>
+          </figure>
+    </div>
+ <div class="slide-item">
+    <figure>
+            <picture>
+              <img loading="lazy" src="https://entrolabs.com/admin/files/TFLlogo.png" loading="lazy" alt="TFLlogo">
+            </picture>
+          </figure>
+    </div>
+		
+		</div>
+</div>
+  </div>
+</section>
+
+
+   
+
+    <div class="socialFloat">
+        <div class="sItem">
+            <a href="#" class="inner_" target="_blank">
+                <img loading="lazy"
+                     src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2030%2030'%3E%3C/svg%3E"
+                     alt="whatsapp" width="30" height="30"><noscript>
+                    <img loading="lazy" src="https://entrolabs.com/assets/themes/pgs/assets/images/icon-whatsapp.svg" loading="lazy"
+                         alt="whatsapp" width="30" height="30">
+                </noscript>
+            </a>
+        </div>
+        <div class="sItem">
+            <a href="#" class="inner_">
+                <img loading="lazy"
+                     src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2030%2030'%3E%3C/svg%3E"
+                     alt="whatsapp" width="30" height="30"><noscript>
+                    <img loading="lazy" src="https://entrolabs.com/assets/themes/pgs/assets/images/icon-message.svg" loading="lazy"
+                         alt="whatsapp" width="30" height="30">
+                </noscript>
+            </a>
+        </div>
+    </div>
+
+      
+
+    
+<footer class="pt-5">
+        <div class="container">
+            <div class="nav_wrap">
+                <nav>
+                    
+                         <img width="159" class="logo_black pb-3" src="https://entrolabs.com/assets/logo/logo-black.png" alt="logo" />
+                    <p>
+                        We expertise in building enterprise scale sophisticated technology solutions for diverse
+                        business
+                        processes.
+
+                    </p>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <h2>Quick Links</h2>
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-20 nav-item active ">
+                            <a href="https://entrolabs.com/" aria-current="page" class="nav-link scroll">Home</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 nav-item  ">
+                            <a href="https://entrolabs.com/about-us/" class="nav-link scroll">About Us</a>
+                        </li>
+
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item ">
+                            <a href="https://entrolabs.com/services/" class="nav-link scroll">Services</a>
+                        </li>
+
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22 nav-item ">
+                            <a href="https://entrolabs.com/careers/" class="nav-link scroll">Careers</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75 nav-item ">
+                            <a href="https://entrolabs.com/contact-us/" class="nav-link scroll">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <h2>Others</h2>
+                    </a>
+                    <ul class="navbar-nav">
+                        <!-- <li id="menu-item-672"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-672 nav-item">
+                            <a href="kpi-s.html" class="nav-link scroll">KPI's</a>
+                        </li> -->
+                        <li id="menu-item-672"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-672 nav-item">
+                            <a href="https://entrolabs.com/case-studies/" class="nav-link scroll">Case Studies</a>
+                        </li>
+                        <!-- <li id="menu-item-672"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-672 nav-item">
+                            <a href="certifications.html" class="nav-link scroll">Certifications</a>
+                        </li> -->
+                        <li id="menu-item-672"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-672 nav-item">
+                            <a href="https://entrolabs.com/terms-and-conditions/" class="nav-link scroll">Terms & Conditions</a>
+                        </li>
+                        <li id="menu-item-672"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-672 nav-item">
+                            <a href="https://entrolabs.com/privacy/" class="nav-link scroll">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <a href="#" title="Contact Us">
+                        <h2>Contact Us</h2>
+                    </a>
+                    <ul class="navbar-nav">
+                        <li id="menu-item-680"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680 nav-item">
+                            <a title="Custom Web Development" href="#" class="nav-link scroll">
+                                <strong>Call</strong> &nbsp;
+                                +91-4042016637
+                            </a>
+                        </li>
+                        <li id="menu-item-681"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680 nav-item">
+                            <a title="Custom Web Development" href="#" class="nav-link scroll">
+                                <strong>Email</strong> &nbsp;
+                                support@entrolabs.com
+                            </a>
+                        </li>
+                        <li id="menu-item-682"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680 nav-item">
+                            <a title="Custom Web Development" href="javascript:;" class="nav-link scroll">
+                                <strong>Office Location</strong> &nbsp;
+                                 <p>
+                                First Floor, Plot No:479,Road No:10, Kakatiya Hills, Guttala_Begumpet, Kavuri
+                                Hills, Madhapur,<br /> Hyderabad, Telangana 500081
+                            </p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="social_wrap">
+                <nav>
+                    <ul>
+                        <li class="create-green">
+                            <a href="#" target="_blank" class="link_ create-green" rel="external nofollow"
+                               data-text="Facebook">
+                                <span class="WeDesign-blue">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="link_" rel="external nofollow"
+                               data-text="Instagram"><span class="create-green">Instagram</span></a>
+                        </li>
+                        <li>
+                            <a href="#s" target="_blank" class="link_ " rel="external nofollow"
+                               data-text="LinkedIn"><span class="WeDesign-blue">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="link_" rel="external nofollow" data-text="Twitter">
+                                <span class="create-green">Twitter</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="cp_wrap">
+                <div class="copy_write ">
+                    <p>
+                        © 2016 - 2026 <strong>EntroLabs IT Solutions Pvt Ltd</strong>. All Rights Reserved.
+                    </p>
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script type='text/javascript' src='https://entrolabs.com/assets/themes/pgs/assets/scripts/lib/jquery-3.4.1.minaf6c.js?ver=3.6.0' id='jquery-js'></script>
+    <!-- <script type='text/javascript' src='https://entrolabs.com/assets/jquery.3.7.1.min.js'></script> -->
+    <script type="text/javascript" src="https://entrolabs.com/assets/simplelightbox-master/dist/simple-lightbox.js"></script>
+    <!-- <script type="text/javascript" src="https://entrolabs.com/assets/js/jquery.js"></script> -->
+   <script type="text/javascript" src="https://entrolabs.com/assets/js/crypto-js/crypto-js.js"></script>
+    <script type="text/javascript" src="https://entrolabs.com/assets/js/nprogress.js"></script>
+    <script type="text/javascript" src="https://entrolabs.com/assets/js/ajaxfunction.js"></script>
+    <script type="text/javascript" src="https://entrolabs.com/assets/js/fileuploader.js"></script>
+
+    
+<script type='text/javascript' src='https://entrolabs.com/assets/cache/min/1/wp-content/themes/pgs/assets/scripts/min/home_plugins4d3a.js'
+            defer></script>
+    <script type='text/javascript' src='https://entrolabs.com/assets/cache/min/1/wp-content/themes/pgs/assets/scripts/min/home4d3a.js'
+            defer></script>
+<script type="text/javascript" src="https://entrolabs.com/theme/js/upload/fileuploader.js"></script>
+
+
+<script type='text/javascript' src='https://entrolabs.com/assets/cache/min/1/wp-content/themes/pgs/assets/scripts/min/home_plugins4d3a.js'
+            defer></script>
+    <script type='text/javascript' src='https://entrolabs.com/assets/cache/min/1/wp-content/themes/pgs/assets/scripts/min/home4d3a.js'
+            defer></script>
+<script type="text/javascript" src="https://entrolabs.com/theme/js/upload/fileuploader.js"></script>
+            
+
+
+    <script>window.lazyLoadOptions = [{ elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, callback_loaded: function (element) { if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") { if (element.classList.contains("lazyloaded")) { if (typeof window.jQuery != "undefined") { if (jQuery.fn.fitVids) { jQuery(element).parent().fitVids() } } } } } }, { elements_selector: ".rocket-lazyload", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, }]; window.addEventListener('LazyLoad::Initialized', function (e) { var lazyLoadInstance = e.detail.instance; if (window.MutationObserver) { var observer = new MutationObserver(function (mutations) { var image_count = 0; var iframe_count = 0; var rocketlazy_count = 0; mutations.forEach(function (mutation) { for (var i = 0; i < mutation.addedNodes.length; i++) { if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') { continue } if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') { continue } images = mutation.addedNodes[i].getElementsByTagName('img'); is_image = mutation.addedNodes[i].tagName == "IMG"; iframes = mutation.addedNodes[i].getElementsByTagName('iframe'); is_iframe = mutation.addedNodes[i].tagName == "IFRAME"; rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload'); image_count += images.length; iframe_count += iframes.length; rocketlazy_count += rocket_lazy.length; if (is_image) { image_count += 1 } if (is_iframe) { iframe_count += 1 } } }); if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) { lazyLoadInstance.update() } }); var b = document.getElementsByTagName("body")[0]; var config = { childList: !0, subtree: !0 }; observer.observe(b, config) } }, !1)</script>
+
+    <script type="rocketlazyloadscript">        // var scene = document.getElementById('scene');
+        // var parallaxInstance = new Parallax(scene);
+        // var scene = document.getElementById('key_scene');
+        // var parallaxInstance = new Parallax(scene);
+
+
+        $(document).ready(function () {setTimeout(function () {//  $(".video__inner").addClass("active");
+        }, 2000);});
+        document.addEventListener("DOMContentLoaded", function () {var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));if ("IntersectionObserver" in window) {var lazyVideoObserver = new IntersectionObserver(function (entries, observer) {entries.forEach(function (video) {if (video.isIntersecting) {for (var source in video.target.children) {var videoSource = video.target.children[source];if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {videoSource.src = videoSource.dataset.src;}}video.target.load();video.target.classList.remove("lazy");lazyVideoObserver.unobserve(video.target);}});});lazyVideos.forEach(function (lazyVideo) {lazyVideoObserver.observe(lazyVideo);});}});$(document).ready(function () {//$('select').formSelect();
+        if ($(window).width() <= 980) {$(".portfolio_wrap .p_item").viewportChecker({classToAdd: "inView",offset: "10%",});$(".key_points_wrap").viewportChecker({classToAdd: "inView",offset: "10%",});} else {$(".portfolio_wrap .p_item").viewportChecker({classToAdd: "inView",offset: "30%",});$(".key_points_wrap").viewportChecker({classToAdd: "inView",offset: "30%",callbackFunction: function (elem, action) {if (action == 'add') {$('[data-count]').each(function () {var this_ = $(this);var count_ = this_.data('count');jQuery({ Counter: 0 }).animate({ Counter: count_ }, {duration: 1500,easing: 'swing',step: function () {this_.text(Math.ceil(this.Counter));}});});}}});}if ($(window).width() <= 980) {var main_slider = new Swiper(".blog_wrap .swiper-container", {slidesPerView: 2,spaceBetween: 30,autoplay: {delay: 6000
+        },pagination: {el: ".blog_wrap .swiper-pagination",clickable: true,},on: {init: function () {$('.blog_wrap').addClass('slider_init');},},breakpoints: {767: {slidesPerView: 1,spaceBetween: 10,},}});var clients_slider = new Swiper(".clients_wrap .swiper-container", {slidesPerView: 3,slidesPerColumn: 2,spaceBetween: 40,autoplay: {delay: 6000
+        },pagination: {el: ".clients_wrap .swiper-pagination",clickable: true,},on: {init: function () {$('.clients_wrap').addClass('slider_init');},},breakpoints: {767: {slidesPerView: 2,spaceBetween: 20,},}});}});var testimonialSwiper = new Swiper(".testimonial-swiper", {slidesPerView: 2,spaceBetween: 80,pagination: {el: ".testimonial_wrap .swiper-pagination",clickable: true,},breakpoints: {991: {slidesPerView: 1,spaceBetween: 30,},},navigation: {nextEl: ".swiper-button-next",prevEl: ".swiper-button-prev",},});var whySlider = new Swiper(".whySlider .swiper-container", {slidesPerView: 1,loop: true,autoplay: {delay: 5000,disableOnInteraction: false
+        },pagination: {el: ".whySlider .swiper-pagination",clickable: true,},});</script>
+    <script type="rocketlazyloadscript">        (function cycle() {var divs = $('.f_box');var min = 3, max = 6;var delay = Math.floor(Math.random() * (max - min) + min) * 1000;setTimeout(function () {divs.removeClass('anim');setTimeout(function () {var index = Math.floor(Math.random() * divs.length);divs.removeClass('anim')
+        .eq(index).addClass('anim');cycle();}, delay);}, 800);})();$(function () {// header offset setting
+        $('body').css('padding-top', $('header').outerHeight());})
+    </script>
+    <script src="https://entrolabs.com/assets/js/lottie.min.js"></script>
+    <script src="https://entrolabs.com/assets/js/slick.js"></script>
+          
+<script>
+$('#slick1').slick({
+    rows: 3,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 1500,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    loop: true,
+    responsive: [
+        {
+            breakpoint: 1024, // Define a breakpoint for screens with a maximum width of 1024px
+            settings: {
+                slidesToShow: 4, // Number of slides to show at this breakpoint
+                slidesToScroll: 4 // Number of slides to scroll at this breakpoint
+            }
+        },
+        {
+            breakpoint: 768, // Define a breakpoint for screens with a maximum width of 768px
+            settings: {
+                slidesToShow: 3, // Number of slides to show at this breakpoint
+                slidesToScroll: 3 // Number of slides to scroll at this breakpoint
+            }
+        },
+        {
+            breakpoint: 480, // Define a breakpoint for screens with a maximum width of 480px
+            settings: {
+                slidesToShow: 2, // Number of slides to show at this breakpoint
+                slidesToScroll: 2 // Number of slides to scroll at this breakpoint
+            }
+        }
+        // You can add more breakpoints and settings as needed
+    ]
+});
+</script>  
+<script>
+      //Sticky-navbar js
+      $(window).on("scroll", function() {
+        var bodyScroll = $(window).scrollTop(),
+          navbar = $("#navigation"),
+          logo = $(".navbar .entro-logo> img");
+        if (bodyScroll > 0) {
+          navbar.addClass("nav-scroll");
+          logo.attr('src', '../images/entro-labs-logo-w.png');
+
+        } else {
+          navbar.removeClass("nav-scroll");
+          logo.attr('src', '../images/entro-labs-logo-w.png');
+        }
+      });
+    </script>
+
+  
+</body>
+
+</html>
